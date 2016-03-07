@@ -13,3 +13,24 @@
 - ``` npm i react-mounter --save ```
 - Discuss following the errors, eg "there is no route for '/'"
 
+Add routes file:
+```js
+import React from 'react';
+import {mount} from 'react-mounter';
+
+FlowRouter.route("/", {
+  action() {
+    mount(MainLayout, {
+        content: (<Homepage />)
+    });
+  }
+});
+```
+
+- Discuss module system and imports vs Meteor's Magic Globals
+
+Follow the errors: "MainLayout is not defined"
+
+
+
+
