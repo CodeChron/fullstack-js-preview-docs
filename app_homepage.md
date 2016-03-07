@@ -5,5 +5,6 @@
 - Add react via npm
 - ```npm init -f```
 - ```npm i react --save```
-- 
+- look at package.json file
+- discuss module system in Meteor 1.3
 
