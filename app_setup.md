@@ -48,10 +48,15 @@ TODO: Add Head block:
 ```
 
 
-TODO: Roll our own CSS.  Instead of just using TWBS, we're going use a custom CSS framework.
+**TODO: Roll our own CSS**
+
+Instead of just using TWBS, we're going use a custom CSS framework.
 - Download and add this folder to your clients directory
 - Add this package: ```meteor add fourseven:scss```
 - Discuss sass and framework organization.
+- Discuss React use of styles: https://facebook.github.io/react/tips/inline-styles.html
+- https://css-tricks.com/the-debate-around-do-we-even-need-css-anymore/
+- 
 
 ## References
 - https://forums.meteor.com/t/meteor-1-3-beta-modules-mobile-and-testing-now-available/18186
