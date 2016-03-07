@@ -14,6 +14,10 @@
 - Discuss following the errors, eg "there is no route for '/'"
 
 Add routes file:
+
+``` /both/routes.jsx ```
+- Discuss jsx file type
+
 ```js
 import React from 'react';
 import {mount} from 'react-mounter';
@@ -30,6 +34,9 @@ FlowRouter.route("/", {
 - Discuss module system and imports vs Meteor's Magic Globals
 
 Follow the errors: "MainLayout is not defined"
+
+Add /components/layouts/MainLayout.jsx, /components/pages/HomePage.jsx
+
 
 
 
