@@ -7,7 +7,8 @@
 
 ```
 - Initialize Git
-- Initial Commit
+
+Initial Commit
 - Create default meteor app
-- Update to Meteor 1.3
-- Remove default files
+- Update to Meteor 1.3: ```meteor update --release 1.3-beta.12 ```
+- Remove default files:  ```rm * ```
