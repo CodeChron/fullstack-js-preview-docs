@@ -44,7 +44,6 @@ TODO: Add Head block:
   <meta name="description" content="A simple note-taking app">
   <meta name="keywords" content="Notes, ideas, scrapbook">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 ```
 
