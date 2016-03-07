@@ -15,12 +15,12 @@
 
 Add routes file:
 
-``` /both/routes.jsx ```
+``` /client/routes.jsx ```
 - Discuss jsx file type
 
 ```js
-import React from 'react';
-import {mount} from 'react-mounter';
+import React from 'react'
+import {mount} from 'react-mounter'
 
 FlowRouter.route("/", {
   action() {
@@ -28,14 +28,43 @@ FlowRouter.route("/", {
         content: (<Homepage />)
     });
   }
-});
+})
 ```
 
+
+
 - Discuss module system and imports vs Meteor's Magic Globals
+- Discuss stateless functions: /*
+ * This is a stateless function or stateless component. It's a type of React
+ * component (though technically just a function) whose only job is to render
+ * output. It isn't aware of any state, it doesn't perform any logic.
+ * See https://facebook.github.io/react/docs/reusable-components.html#stateless-functions
+ *
+ * Technically the name MainLayout isn't needed here since it's an export
+ * default, but I include it so WebStorm can trace back to it when I cmd-click
+ * on any references to MainLayout. Plus, code clarity.
+ */
+ 
 
 Follow the errors: "MainLayout is not defined"
 
-Add /components/layouts/MainLayout.jsx, /components/pages/HomePage.jsx
+Add /client/layouts/MainLayout.jsx, /client/pages/HomePage.jsx
+
+```
+import React from 'react'
+
+export const MainLayout = ({content}) => <div>
+	  <h1>My App</h1>
+	  {content}
+	</div>
+  ```
+  
+  ```js 
+  import React from 'react'
+
+export const Homepage = () => <div>This is the homepage</div>
+```
+
 
 
 
