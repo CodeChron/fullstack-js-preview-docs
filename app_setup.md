@@ -29,6 +29,14 @@ Initial Commit
 
 - Add screen cap with app with more files, like tests, build, etc.
 
+- Add a simple deploy script:
+
+```json
+  "scripts": {
+    "deploy": "meteor deploy m13-react-workshop"
+  }
+```
+
 ## References
 - https://forums.meteor.com/t/meteor-1-3-beta-modules-mobile-and-testing-now-available/18186
 - https://www.eventedmind.com/classes/getting-started-with-meteor/meteor-getting-set-up
