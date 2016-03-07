@@ -65,6 +65,9 @@ export const MainLayout = ({content}) => <div>
 export const Homepage = () => <div>This is the homepage</div>
 ```
 
+- Commit and deploy
+
+
 
 
 
