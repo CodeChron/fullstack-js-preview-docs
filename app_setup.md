@@ -10,7 +10,7 @@
 
 Initial Commit
 - Create default meteor app
-- Update to Meteor 1.3: ```meteor update --release 1.3-beta.12 ```
+- Update to Meteor 1.3: ```meteor update --release 1.3-beta.12 ``` (TODO: in description, recommend people install this in advance once or it will take a long time.)
 - Run app locally and open console - leave this tab open.
 - Add deploy step here: ```meteor deploy m13-react-workshop``` (use your initials or the like to personalize)
 - Why deploy first?
