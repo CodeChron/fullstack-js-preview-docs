@@ -37,6 +37,17 @@ Initial Commit
   }
 ```
 
+TODO: Add Head block:
+```html
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="A simple note-taking app">
+  <meta name="keywords" content="Notes, ideas, scrapbook">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+```
+
 ## References
 - https://forums.meteor.com/t/meteor-1-3-beta-modules-mobile-and-testing-now-available/18186
 - https://www.eventedmind.com/classes/getting-started-with-meteor/meteor-getting-set-up
