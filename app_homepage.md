@@ -10,5 +10,6 @@
 - Add routing
 - Discuss Meteor packages
 - ``` meteor add kadira:flow-router ```
+- ``` npm i react-mounter --save ```
 - 
 
