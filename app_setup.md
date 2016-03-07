@@ -53,6 +53,17 @@ TODO: Add Head block:
 Instead of just using TWBS, we're going use a custom CSS framework.
 - Download and add this folder to your clients directory
 - Add this package: ```meteor add fourseven:scss```
+- Add this config file: 
+
+``` /scss.json ```
+
+```json
+{
+  "enableAutoprefixer": true
+}
+```
+
+
 - Discuss sass and framework organization.
 - Discuss React use of styles: https://facebook.github.io/react/tips/inline-styles.html
 - https://css-tricks.com/the-debate-around-do-we-even-need-css-anymore/
