@@ -8,6 +8,15 @@
 ```
 - Initialize Git
 
+Gitignore:
+```sh
+node_modules
+app/modules
+npm-debug.log
+tmp
+.DS_Store
+```
+
 Initial Commit
 - Create default meteor app
 - Update to Meteor 1.3: ```meteor update --release 1.3-beta.12 ``` (TODO: in description, recommend people install this in advance once or it will take a long time.)
