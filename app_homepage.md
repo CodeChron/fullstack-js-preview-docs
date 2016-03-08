@@ -123,6 +123,11 @@ Why text so small?
 ## Should I use a framework like Bootstrap?
 - Discuss pros and cons
 
+## Install SASS
+```meteor add fourseven:scss ```
+Add AutoPrefixer:
+```/scss.json```
+
 
 - Add styling, add scss package, discuss taking over someone else's css, a common thing when working as a dev
 - add AppHeader, PageTitle
