@@ -153,6 +153,11 @@ export class AppHeader extends Component{
 ```
 
 # Add NotesList (Placeholder) Component
+```js
+import React from 'react'
+
+export const NotesList = () => <main>NotesList placeholder</main>
+```
 
 
 # Add Styling (split this into separate step)
