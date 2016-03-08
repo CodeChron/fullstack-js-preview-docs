@@ -110,14 +110,47 @@ FlowRouter.route("/", {
   }
 })
 ```
+# Add PageTitle Component
+``` /client/content/PageTitle.jsx ```
+
+```js
+import React, {PropTypes, Component} from 'react'
+
+export default class PageTitle extends Component {
+	render() {
+    return <div>
+      {this.props.pageTitle}
+    </div>
+	}
+}
+
+PageTitle.propTypes = {
+	pageTitle: React.PropTypes.string.isRequired
+};
+
+```
 
 
 # Add AppHeader Component
 
+``` /client/layouts/AppHeader.jsx ```
 
+```js
+import React, {Component} from 'react'
+import PageTitle from '../content/PageTitle.jsx'
 
-# Add PageTitle Component
-
+export class AppHeader extends Component{
+	render(){
+		return (
+			<header className="app-header">
+        <div className="header-center">
+          <PageTitle pageTitle="My Notes App" />
+        </div>
+      </header>
+		)
+	}
+}
+```
 
 
 
