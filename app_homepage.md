@@ -77,7 +77,8 @@ export const Homepage = () => <div>This is the homepage</div>
 ```
 
 TODO:
-- Add styling, add AppHeader, PageTitle
+- Add styling, add scss package, discuss taking over someone else's css, a common thing when working as a dev
+- add AppHeader, PageTitle
 - _would like for there ot be a self-directed activity in here_
 
 - Commit and deploy
