@@ -41,12 +41,6 @@ Add routes file:
 import React from 'react'
 import {mount} from 'react-mounter'
 
-//LAYOUTS
-import {MainLayout} from './layouts/MainLayout.jsx'
-
-// COMPONENTS
-import {Homepage} from './pages/Homepage.jsx'
-
 FlowRouter.route("/", {
 	name: "homepage",
   action() {
@@ -61,6 +55,8 @@ FlowRouter.route("/", {
 
 
 - Discuss module system and imports vs Meteor's Magic Globals
+
+
 - Discuss stateless functions:
 
  This is a stateless function or stateless component. It's a type of React component (though technically just a function) whose only job is to render output. It isn't aware of any state, it doesn't perform any logic. See https://facebook.github.io/react/docs/reusable-components.html#stateless-functions.  Technically the name MainLayout isn't needed here since it's an export default Plus, code clarity.
@@ -73,19 +69,61 @@ Add /client/layouts/MainLayout.jsx, /client/pages/HomePage.jsx
 ```
 import React from 'react'
 
-export const MainLayout = ({content}) => <div>
-	  <h1>My App</h1>
-	  {content}
-	</div>
+export const MainLayout = ({content}) => <div className="app-container">{content}</div>
   ```
-  
-  ```js 
-  import React from 'react'
+ Discuss use of ClassName and "HTML" in JSX
+ 
 
-export const Homepage = () => <div>This is the homepage</div>
+Import MainLayout
+
+```js
+// GLOBAL
+import React from 'react'
+import {mount} from 'react-mounter'
+
+//LAYOUTS
+import {MainLayout} from './layouts/MainLayout.jsx'
+
+FlowRouter.route("/", {
+	name: "homepage",
+  action() {
+    mount(MainLayout, {
+        header: <AppHeader />,
+        content: <NotesList />
+    })
+  }
+})
+```
+With component placeholders added:
+```js
+// COMPONENTS
+import {AppHeader} from './layouts/AppHeader.jsx'
+import {NotesList} from './pages/NotesList.jsx'
+
+FlowRouter.route("/", {
+	name: "homepage",
+  action() {
+    mount(MainLayout, {
+        header: <AppHeader />,
+        content: <NotesList />
+    })
+  }
+})
+```
+# Add Styling
+Why text so small?
+``` /client/head.html ```
+
+```html
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 ```
 
-TODO:
+## Should I use a framework like Bootstrap?
+- Discuss pros and cons
+
+
 - Add styling, add scss package, discuss taking over someone else's css, a common thing when working as a dev
 - add AppHeader, PageTitle
 - _would like for there ot be a self-directed activity in here_
