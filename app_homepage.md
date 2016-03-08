@@ -152,6 +152,7 @@ export class AppHeader extends Component{
 }
 ```
 
+# Add NotesList (Placeholder) Component
 
 
 # Add Styling (split this into separate step)
