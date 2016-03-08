@@ -7,6 +7,10 @@
 - move task to doing
 - Add tasks in our feature card: add routing, add homepage, basic homepage components and layout.
 
+![Mockup of homepage](home-anon.png)
+
+
+Let's break this down into a component hierarchy:
 
 
 - Add react via npm
