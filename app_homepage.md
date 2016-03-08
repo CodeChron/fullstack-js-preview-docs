@@ -37,8 +37,14 @@ Add routes file:
 - Discuss jsx file type
 
 ```js
+//GLOBAL
 import React from 'react'
 import {mount} from 'react-mounter'
+
+//LAYOUTS
+import {MainLayout} from './layouts/MainLayout.jsx'
+
+//COMPONENTS
 
 FlowRouter.route("/", {
 	name: "homepage",
