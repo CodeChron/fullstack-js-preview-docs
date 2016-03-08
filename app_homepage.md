@@ -110,7 +110,7 @@ FlowRouter.route("/", {
   }
 })
 ```
-# Add Styling
+# Add Styling (split this into separate step)
 Why text so small?
 ``` /client/head.html ```
 
@@ -134,10 +134,11 @@ Add AutoPrefixer:
   "enableAutoprefixer": true
 }
 ```
+
 TODO: Provide link to download stylesheets zip file. Discuss taking over someone else's css, a common thing when working as a dev
 
 ## Add PageTitle Component
-_work in pairs and try doing this on your own_
+
 
 - add AppHeader, PageTitle
 - _would like for there ot be a self-directed activity in here_
