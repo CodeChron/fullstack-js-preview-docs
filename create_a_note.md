@@ -11,4 +11,8 @@ Let's start with our mockups for this feature.
 ## Pairing Activity
 - Define what components you think would be needed, and draw a component hierarchy
 
+## A Component Hierarchy
+
+![Component Hierarchy for the Create Note feture](images/create-note-components.png)
+
 
