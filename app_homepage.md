@@ -104,8 +104,8 @@ FlowRouter.route("/", {
 	name: "homepage",
   action() {
     mount(MainLayout, {
-        header: <AppHeader />,
-        content: <NotesList />
+        header: () => <AppHeader />,
+        content: () => <NotesList />
     })
   }
 })
@@ -125,11 +125,20 @@ Why text so small?
 
 ## Install SASS
 ```meteor add fourseven:scss ```
+
 Add AutoPrefixer:
-```/scss.json```
+```/scss.json ``` 
 
+```json
+{
+  "enableAutoprefixer": true
+}
+```
+TODO: Provide link to download stylesheets zip file. Discuss taking over someone else's css, a common thing when working as a dev
 
-- Add styling, add scss package, discuss taking over someone else's css, a common thing when working as a dev
+## Add PageTitle Component
+_work in pairs and try doing this on your own_
+
 - add AppHeader, PageTitle
 - _would like for there ot be a self-directed activity in here_
 
