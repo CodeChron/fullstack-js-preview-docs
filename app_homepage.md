@@ -4,7 +4,9 @@
 
 # Review Homepage mockup
 
-- Add tasks in our feature card, move task to doing
+- move task to doing
+- Add tasks in our feature card: add routing, add homepage, basic homepage components and layout.
+
 
 
 - Add react via npm
