@@ -41,10 +41,12 @@ import React from 'react'
 import {mount} from 'react-mounter'
 
 FlowRouter.route("/", {
+	name: "homepage",
   action() {
     mount(MainLayout, {
-        content: (<Homepage />)
-    });
+        header: <AppHeader />,
+        content: <NotesList />
+    })
   }
 })
 ```
