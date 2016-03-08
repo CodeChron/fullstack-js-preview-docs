@@ -17,6 +17,6 @@ Let's start with our mockups for this feature.
 
 ## Our tasks
 - Add support for icons
-- Create an ActionBtn icon that requires an icon prop, a title prop, and an action prop
-- Create a SingleFieldSubmit that requires an input handler, requires a value on submit, and handles a blur event.
+- Create an ActionBtn component that requires an icon prop, a title prop, and an action prop
+- Create a SingleFieldSubmit component that requires an input handler, requires a value on submit, and handles a blur event.
 - Add a Notes collection for managing note data.
