@@ -10,10 +10,14 @@
 ![Mockup of homepage](images/home-anon.png)
 
 
-Let's break this down into a component hierarchy:
+Let's break this down into a component hierarchy: 
 
 
 ![Comp hierarchy of homepage](images/home-components.png)
+
+This will drive out our work for this feature.
+
+(We'll create the first few components together and then you'll be creating the remaining on your own.)
 
 - Add react via npm
 - ```npm init -f```
@@ -48,17 +52,10 @@ FlowRouter.route("/", {
 
 
 - Discuss module system and imports vs Meteor's Magic Globals
-- Discuss stateless functions: /*
- * This is a stateless function or stateless component. It's a type of React
- * component (though technically just a function) whose only job is to render
- * output. It isn't aware of any state, it doesn't perform any logic.
- * See https://facebook.github.io/react/docs/reusable-components.html#stateless-functions
- *
- * Technically the name MainLayout isn't needed here since it's an export
- * default, but I include it so WebStorm can trace back to it when I cmd-click
- * on any references to MainLayout. Plus, code clarity.
- */
- 
+- Discuss stateless functions:
+
+ This is a stateless function or stateless component. It's a type of React component (though technically just a function) whose only job is to render output. It isn't aware of any state, it doesn't perform any logic. See https://facebook.github.io/react/docs/reusable-components.html#stateless-functions.  Technically the name MainLayout isn't needed here since it's an export default Plus, code clarity.
+
 
 Follow the errors: "MainLayout is not defined"
 
@@ -78,6 +75,10 @@ export const MainLayout = ({content}) => <div>
 
 export const Homepage = () => <div>This is the homepage</div>
 ```
+
+TODO:
+- Add styling, add AppHeader, PageTitle
+- _would like for there ot be a self-directed activity in here_
 
 - Commit and deploy
 
