@@ -42,19 +42,72 @@ ActionBtn.propTypes = {
 }
 ```
 
-# Use Action Btn Component to in AppHeader/Homepage
+# Add Icons
 
-
-- Discuss: Naming and organization of components
-- Discuss: propTypes as API (what is an API)
-
-# Adding Icons
-Add this to ``` /client/head.html ```
+``` /client/head.html ```
 
 ```html
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 ```
+
+
+# Use Action Btn Component to in AppHeader/Homepage
+
+``` /client/layouts/AppHeader.jsx ```
+
+```js
+...
+import ActionBtn from '../forms/ActionBtn.jsx'
+
+...
+        <div className="header-left">
+          <ActionBtn icon="add" title="New Note" handleClick={this.props.handleCreateNote} />
+        </div>
+...
+```
+
+```js
+...
+
+	handleCreateNote(){
+		// create note
+		// redirect to note detail view
+		console.log("clicked")
+	}
+
+	render(){
+		const newNoteBtn = {
+			icon: "new",
+			title: "New Note"
+		}
+		const cancelNewNoteBtn = {
+			icon: "cancel",
+			title: "Cancel New Note"
+		}
+		
+		return (
+			<div className="app-container">
+			  <AppHeader
+			   	handleCreateNote={this.handleCreateNote}
+			   	
+			    headerCenter={this.handleHeaderCenter()}
+			  />
+			  <main>
+			   Homepage Content
+			  </main>
+      </div>
+		) 
+	}
+...
+```
+
+- Add a handler for creating a note in our "controller" component.
+- Connect to the component in the AppHeader via props.
+
+- Discuss: Naming and organization of components
+- Discuss: propTypes as API (what is an API)
+
 
 
 
