@@ -127,7 +127,36 @@ Let's add some more structure, or a schema to our collection.  There are many wa
 
 ``` meteor add jagi:astronomy ```
 
+``` /both/collection/Notes.js ```
 
+```js
+import {Mongo} from 'meteor/mongo'
+import {Astro} from 'meteor/jagi:astronomy'
+
+export const Notes = new Mongo.Collection('notes')
+
+export const Note = Astro.Class({
+	name: 'Note',
+	collection: Notes,
+	fields: {
+    title: {
+      type: 'string'
+    },
+    content: {
+      type: 'string'
+    },
+    createdAt: {
+      type: 'date'
+    }
+  },
+  events: {
+    beforeInsert() {
+      this.createdAt = new Date()
+    }
+  }
+})
+
+```
 
 - remove autopublish
 - Add Notes Collection
