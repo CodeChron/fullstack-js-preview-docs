@@ -42,6 +42,9 @@ ActionBtn.propTypes = {
 }
 ```
 
+- Discuss: Naming and organization of components
+- Discuss: propTypes as API (what is an API)
+
 # Adding Icons
 Add this to ``` /client/head.html ```
 
