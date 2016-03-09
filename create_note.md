@@ -108,7 +108,5 @@ import ActionBtn from '../forms/ActionBtn.jsx'
 - Discuss: Naming and organization of components
 - Discuss: propTypes as API (what is an API)
 
-
-
-
-
+## Add and Publish a Notes Collection
+Now that, we ready to start creating Notes, we need somewhere to store them.
