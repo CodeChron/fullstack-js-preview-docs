@@ -5,6 +5,6 @@
 * [The App We'll Be Building](the_app_well_be_building.md)
 * [App Setup](app_setup.md)
 * [App Homepage](app_homepage.md)
-* [Create a Note - toggle](create_a_note.md)
 * [Create Note - Simplified](create_note.md)
+* [Create a Note - toggle](create_a_note.md)
 
