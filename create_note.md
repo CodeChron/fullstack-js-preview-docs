@@ -170,6 +170,9 @@ Meteor.publish('allNotes', function () {
 ```
 Discuss: being explicit in your publication names
 
+
+## Subscribe to Notes
+
 - remove autopublish
 - Add Notes Collection
 - Publish Notes collection
