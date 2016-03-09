@@ -117,6 +117,18 @@ import {Mongo} from 'meteor/mongo'
 
 export const Notes = new Mongo.Collection('notes')
 ```
+
+With these two lines, we've created and made a Notes collection available to our app.
+Let's add some more structure, or a schema to our collection.  There are many ways we could do that, here, we'll use the Astronomy package.
+- Discuss; why have a schema?
+- We want to explicit model our data, to clearly define what it can contain, and what rules relate to that content. 
+- Fields: Title, Content, createdAt
+
+
+``` meteor add jagi:astronomy ```
+
+
+
 - remove autopublish
 - Add Notes Collection
 - Publish Notes collection
