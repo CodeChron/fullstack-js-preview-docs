@@ -157,7 +157,19 @@ export const Note = Astro.Class({
 })
 
 ```
+## Publish Notes
 
+``` /server/publications.js ```
+
+```js
+import {Notes} from '../both/collections/Notes'
+
+Meteor.publish('allNotes', function () {
+  return Notes.find();
+});
+
+
+```
 - remove autopublish
 - Add Notes Collection
 - Publish Notes collection
