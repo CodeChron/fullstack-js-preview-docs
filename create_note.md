@@ -18,6 +18,30 @@ The first step in our user flow is that of a user clicking on a "New" button to 
 
 # Add an ActionBtn Component
 
+``` /client/forms/ActionBtn.jsx ```
+
+```js
+import React from 'react'
+
+export default class ActionBtn extends React.Component {
+	render() {
+      return  <button 
+        onClick={this.props.handleClick.bind(this)}
+        className="icon-btn"
+        title={this.props.title}
+        alt={this.props.title}>
+        <i className="material-icons">{this.props.icon}</i>
+       </button>
+	}
+}
+
+ActionBtn.propTypes = {
+  icon: React.PropTypes.string.isRequired,
+  title:  React.PropTypes.string,
+  handleClick: React.PropTypes.func.isRequired
+}
+```
+
 # Adding Icons
 Add this to ``` /client/head.html ```
 
