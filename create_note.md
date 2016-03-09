@@ -108,8 +108,15 @@ import ActionBtn from '../forms/ActionBtn.jsx'
 - Discuss: Naming and organization of components
 - Discuss: propTypes as API (what is an API)
 
-## Add and Publish a Notes Collection
+## Add a Notes Collection
 Now that, we ready to start creating Notes, we need somewhere to store them.
+
+``` /both/collection/Notes.js ```
+```js
+import {Mongo} from 'meteor/mongo'
+
+export const Notes = new Mongo.Collection('notes')
+```
 - remove autopublish
 - Add Notes Collection
 - Publish Notes collection
