@@ -1,4 +1,4 @@
-# Create a Note
+# Create a Note (Toggle version)
 Let's start with our mockups for this feature.
 - update Trello board, add tasks for this note
 - Reference mockups when listing tasks that are needed
@@ -20,3 +20,15 @@ Let's start with our mockups for this feature.
 - Create an ActionBtn component that requires an icon prop, a title prop, and an action prop
 - Create a SingleFieldSubmit component that requires an input handler, requires a value on submit, and handles a blur event.
 - Add a Notes collection for managing note data.
+
+
+# Add an ActionBtn Component
+
+# Adding Icons
+Add this to ``` /client/head.html ```
+
+```html
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+```
+
