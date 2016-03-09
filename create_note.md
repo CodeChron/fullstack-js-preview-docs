@@ -16,4 +16,16 @@ Here, the user clicks on new note icon on the homepage.  This triggers the creat
 ## Add a "New Note" Button
 The first step in our user flow is that of a user clicking on a "New" button to create a note.
 
+# Add an ActionBtn Component
+
+# Adding Icons
+Add this to ``` /client/head.html ```
+
+```html
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+```
+
+
+
 
