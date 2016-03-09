@@ -42,6 +42,9 @@ ActionBtn.propTypes = {
 }
 ```
 
+# Use Action Btn Component to in AppHeader/Homepage
+
+
 - Discuss: Naming and organization of components
 - Discuss: propTypes as API (what is an API)
 
