@@ -110,3 +110,6 @@ import ActionBtn from '../forms/ActionBtn.jsx'
 
 ## Add and Publish a Notes Collection
 Now that, we ready to start creating Notes, we need somewhere to store them.
+- remove autopublish
+- Add Notes Collection
+- Publish Notes collection
