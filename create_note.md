@@ -167,9 +167,9 @@ import {Notes} from '../both/collections/Notes'
 Meteor.publish('allNotes', function () {
   return Notes.find();
 });
-
-
 ```
+Discuss: being explicit in your publication names
+
 - remove autopublish
 - Add Notes Collection
 - Publish Notes collection
