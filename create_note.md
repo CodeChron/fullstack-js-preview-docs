@@ -13,3 +13,4 @@ This means that there might be some trade-offs initially.
 
 Here, the user clicks on new note icon on the homepage.  This triggers the creation of a new note, followed by a redirect to the details view for that note.
 
+## Add Action Btn
