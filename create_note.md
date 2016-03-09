@@ -111,7 +111,7 @@ import ActionBtn from '../forms/ActionBtn.jsx'
 ## Add a Notes Collection
 Now that, we ready to start creating Notes, we need somewhere to store them.
 
-``` /both/collection/Notes.js ```
+``` /both/collection/notes.js ```
 ```js
 import {Mongo} from 'meteor/mongo'
 
