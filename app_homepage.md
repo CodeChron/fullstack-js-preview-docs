@@ -16,6 +16,7 @@ Let's break this down into a component hierarchy:
 ![Comp hierarchy of homepage](images/home-components.png)
 
 This will drive out our work for this feature.
+(TODO: Note that we'll be adding the action btn in the next step, possibly remove from this mockup)
 
 (We'll create the first few components together and then you'll be creating the remaining on your own.)
 
@@ -52,10 +53,7 @@ FlowRouter.route("/", {
 })
 ```
 
-
-
 - Discuss module system and imports vs Meteor's Magic Globals
-
 
 - Discuss stateless functions:
 
@@ -70,10 +68,11 @@ Add /client/layouts/MainLayout.jsx, /client/pages/HomePage.jsx
 import React from 'react'
 
 export const MainLayout = ({content}) => <div className="app-container">{content}</div>
-  ```
- Discuss use of ClassName and "HTML" in JSX
- 
 
+```
+
+Discuss use of ClassName and "HTML" in JSX
+ 
 Import MainLayout
 
 ```js
@@ -173,7 +172,8 @@ Why text so small?
 ```
 
 ## Should I use a framework like Bootstrap?
-- Discuss pros and cons
+- Discuss pros and cons 
+
 
 ## Install SASS
 ```meteor add fourseven:scss ```
