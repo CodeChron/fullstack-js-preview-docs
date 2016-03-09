@@ -6,4 +6,5 @@
 * [App Setup](app_setup.md)
 * [App Homepage](app_homepage.md)
 * [Create a Note - toggle](create_a_note.md)
+* Create Note - Simplified
 
