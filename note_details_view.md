@@ -12,4 +12,10 @@
 ## Add Auto-saving Text Field
 - requires a data handler
 - changes are saved on keyup, with a throttle
-- two types of inpute fields that are very similar but should th
+- two types of input fields that are very similar but should they be the same component?
+
+- Discuss: inserting comments into a JSX block
+- React form inputs and managing state: http://blog.iansinnott.com/managing-state-and-controlled-form-fields-with-react/
+- 
+- 
+- 
