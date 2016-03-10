@@ -11,4 +11,5 @@
 
 ## Add Auto-saving Text Field
 - requires a data handler
-- 
+- changes are saved on keyup, with a throttle
+- two types of inpute fields that are very similar but should th
