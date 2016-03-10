@@ -6,3 +6,5 @@
 - What about just using the first line as the title?
 - Next: updated mocks for note detail
 
+![Note Detail Components](images/note-detail.png)
+
