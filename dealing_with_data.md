@@ -6,4 +6,5 @@
 - install meteor-react-data package and npm react-mixins
 - waiting for subscriptions to be ready
 - adding a Loading utility component
+-   
 
