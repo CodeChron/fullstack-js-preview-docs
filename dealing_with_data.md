@@ -7,5 +7,6 @@
 - waiting for subscriptions to be ready
 - adding a Loading utility component
 - Components: create an example to explain re-binding scope and how ```this``` works
+- NEXT: Add Submit and Blur events to text field, switch to PageTitle, create a EditableSingleField component for handling the toggle
 
 
