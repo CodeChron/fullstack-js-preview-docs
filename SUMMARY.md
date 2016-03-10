@@ -7,5 +7,5 @@
 * [App Homepage](app_homepage.md)
 * [Create Note - Simplified](create_note.md)
 * [Pt 2 - Create a Note - toggle](create_a_note.md)
-* Note Details View
+* [Note Details View](note_details_view.md)
 
