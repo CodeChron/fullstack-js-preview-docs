@@ -6,5 +6,6 @@
 - install meteor-react-data package and npm react-mixins
 - waiting for subscriptions to be ready
 - adding a Loading utility component
--   
+- Components: create an example to explain re-binding scope and how ```this``` works
+
 
