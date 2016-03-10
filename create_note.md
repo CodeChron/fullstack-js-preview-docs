@@ -52,7 +52,7 @@ ActionBtn.propTypes = {
 ```
 
 
-# Use Action Btn Component to in AppHeader/Homepage
+# Use Action Btn Component in AppHeader/Homepage
 
 ``` /client/layouts/AppHeader.jsx ```
 
@@ -170,8 +170,18 @@ Meteor.publish('allNotes', function () {
 ```
 Discuss: being explicit in your publication names
 
+## Getting Data Using React
+- There is a lot of debate and many different techniques: 
+- See https://www.discovermeteor.com/blog/data-loading-react/
+- https://forums.meteor.com/t/article-data-loading-in-react-four-techniques-compared/18814
+- Here, we'll use [TrackerReact](https://github.com/ultimatejs/tracker-react)
 
-## Subscribe to Notes
+``` meteor add ultimatejs:tracker-react  ```
+
+
+
+## Access Data using a "Controller" Component
+
 
 - remove autopublish
 - Add Notes Collection
