@@ -8,3 +8,7 @@
 
 ![Note Detail Components](images/note-detail.png)
 
+
+## Add Auto-saving Text Field
+- requires a data handler
+- 
