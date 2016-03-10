@@ -16,6 +16,7 @@
 
 - Discuss: inserting comments into a JSX block
 - React form inputs and managing state: http://blog.iansinnott.com/managing-state-and-controlled-form-fields-with-react/
+- Discuss: binding functions http://egorsmirnov.me/2015/08/16/react-and-es6-part3.html
 - 
 - 
 - 
