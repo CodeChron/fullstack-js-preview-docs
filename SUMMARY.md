@@ -10,5 +10,5 @@
 * [Note Details View](note_details_view.md)
 * [Dealing with Data](dealing_with_data.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
-* Notes
+* [Notes](notes.md)
 
