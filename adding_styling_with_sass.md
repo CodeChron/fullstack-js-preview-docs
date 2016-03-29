@@ -12,7 +12,7 @@ There are several reasons why you want to do that if you are learning to code.
 You'll never really learn CSS by using something already created for you.
 If you use something like Bootstrap or Foundation, you will find yourself writing CSS specific to these frameworks when customizing.
 
-Don't get me wrong - there is nothing wrong with these frameworks, and they can be great for building web apps, but when your goal is to learn, then you should write your own from scratch.
+Don't get me wrong - there is nothing wrong with these frameworks, and they can be great for building web apps, but when your goal is to learn, then you should write your own CSS from scratch.
 
 
 # Add meta tags for mobile
