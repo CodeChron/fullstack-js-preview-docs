@@ -17,7 +17,7 @@
 The --save option instructs NPM to include the package inside of the dependencies section of your package.json automatically, thus saving you an additional step."
 http://stackoverflow.com/questions/19578796/what-is-the-save-option-for-npm-install
 
-_this may not be needed since we're going to be adding flow router which will handle this_
+**_DO NOT DO THE STEPS BELOW this may not be needed since we're going to be adding flow router which will handle this_**
 
 ## Add a top-level "app" React Component
 
