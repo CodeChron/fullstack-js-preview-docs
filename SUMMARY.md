@@ -12,4 +12,5 @@
 * [Note Details View](note_details_view.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
 * [Notes](notes.md)
+* Adding Publications and Subcriptions
 
