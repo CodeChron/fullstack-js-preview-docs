@@ -1,4 +1,4 @@
-# App Setup
+# (old) App Setup
 - Create the app directory
 - Add ReadMe with default content:
 
