@@ -31,5 +31,25 @@ After installing this we should see message that we don't have a homepage.
 
 ``` /client/routes.jsx ```
 
+```js
+import React from 'react'
+import {mount} from 'react-mounter'
+
+import {App} from './app'
+import {AppHeader} from './layouts/app_header'
+import {NotesList} from './containers/notes_list'
+
+
+FlowRouter.route('/', {
+  name: 'homepage',
+  action() {
+    mount(App, {
+      header: () =>  <AppHeader />,
+      content: () => <NotesList />
+    })
+  }
+})
+
+```
 
 
