@@ -17,6 +17,8 @@
 The --save option instructs NPM to include the package inside of the dependencies section of your package.json automatically, thus saving you an additional step."
 http://stackoverflow.com/questions/19578796/what-is-the-save-option-for-npm-install
 
+_this may not be needed since we're going to be adding flow router which will handle this_
+
 ## Add a top-level "app" React Component
 
 ``` /client/components/app.jsx ```
@@ -31,7 +33,7 @@ Discuss:
 - modules
 - stateless components
 
-_this remaining steps may not be needed since we're going to be adding flow router which will handle this_
+
 
 ## Add a "render target" to your web app
 
