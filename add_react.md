@@ -31,9 +31,10 @@ Discuss:
 - modules
 - stateless components
 
+_this remaining steps may not be needed since we're going to be adding flow router which will handle this_
 
 ## Add a "render target" to your web app
-_this may not be needed since we're going to be adding flow router which will handle this_
+
 
 We need to create a location for where to render our (future) React components.
 
