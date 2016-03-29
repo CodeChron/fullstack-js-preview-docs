@@ -7,6 +7,7 @@
 * [Create Note - Simplified](create_note.md)
 * [Adding Data](adding_data.md)
 * [Add a Notes List](add_a_notes_list.md)
+* [Adding styling with Sass](adding_styling_with_sass.md)
 * [Adding Publications and Subcriptions](adding_publications_and_subcriptions.md)
 * [Deleting a Note](deleting_a_note.md)
 * [(OLD) App Homepage](app_homepage.md)
@@ -14,5 +15,4 @@
 * [Note Details View](note_details_view.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
 * [Notes](notes.md)
-* [Adding styling with Sass](adding_styling_with_sass.md)
 
