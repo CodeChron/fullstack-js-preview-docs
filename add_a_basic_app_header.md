@@ -2,35 +2,35 @@
 
 Here, we have a static app header and a component that submits that was input to a handler.
 
-## Add an app header and a page title component
+## Add an app title component
 
-``` /client/layout/app_header.jsx ```
+
+``` /client/content/page_title.jsx ```
 
 ```js
+
 import React from 'react'
 
-export const AppHeader = (props) => 
-	<header className="app-header">
-	  <div className="header-left">
-	   {props.headerLeft}
-	  </div>
-	  <div className="header-center">
-	    {props.headerCenter}
-	  </div>
-	  <div className="header-right">
-      {props.headerRight}
-    </div>
-	</header>
+export const PageTitle = (props) => <h1 className="page-title">{props.pageTitle}</h1>
 
-AppHeader.propTypes = {
-  headerLeft: React.PropTypes.object,
-  headerCenter: React.PropTypes.object,
-  headerRight: React.PropTypes.object
+PageTitle.propTypes = {
+	pageTitle: React.PropTypes.string
 }
+
+PageTitle.defaultProps = { 
+  pageTitle: "My Notes App"
+}
+
 ```
 
-- Discuss: adding useful default values to components.
-- Discuss: why not just include a page title in the app header?
+
+- Discuss: component naming, why page title?
+- Discuss: props, propTypes, and useful defaults.
+
+# Insert the Page Title component
+
+Let's now add this component to the main app:
+
 
 ## Add a single field submit component
 - Discuss component naming
