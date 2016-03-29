@@ -11,5 +11,5 @@
 * [Dealing with Data](dealing_with_data.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
 * [Notes](notes.md)
-* Adding Data
+* [Adding Data](adding_data.md)
 
