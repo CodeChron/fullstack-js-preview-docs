@@ -5,4 +5,19 @@ Therefore, let's add an actual homepage.  This means that we're going to want to
 
 ## Add Routing
 
+``` meteor add kadira:flow-router ```
+
+Install layout support for react:
+``` npm i react-mounter --save ```
+
+
+Discuss the state of routing and community packages.
+
+After installing this we should see message that we don't have a homepage.
+
+## Add a homepage (root) route
+
+``` /client/routes.jsx ```
+
+
 
