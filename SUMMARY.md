@@ -6,6 +6,7 @@
 * [Add React](add_react.md)
 * [Create Note - Simplified](create_note.md)
 * [Add an app title](add_a_basic_app_header.md)
+* [Add a New Note Form](add_a_new_note_form.md)
 * [Adding Data](adding_data.md)
 * [Add a Notes List](add_a_notes_list.md)
 * [Adding styling with Sass](adding_styling_with_sass.md)
@@ -16,5 +17,4 @@
 * [Note Details View](note_details_view.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
 * [Notes](notes.md)
-* [Add a New Note Form](add_a_new_note_form.md)
 
