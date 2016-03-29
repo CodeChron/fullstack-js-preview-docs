@@ -14,9 +14,19 @@
 
 ![Sample Screen Setup](images/sample-screen-setup.png)
 
+## Remove some default files and code
+
+``` rm client/main.css ```
+
+_others_?
+
+
+
+
 ## Add React
 - Discuss using npm instead of Meteor packages
 
+[NEW SECTION]
 
 ### Install React
 - Discuss: what is react-dom?
@@ -29,6 +39,31 @@
 
 The --save option instructs NPM to include the package inside of the dependencies section of your package.json automatically, thus saving you an additional step."
 http://stackoverflow.com/questions/19578796/what-is-the-save-option-for-npm-install
+
+## Add a top-level "app" React Component
+
+``` /client/components/app.jsx ```
+
+```js
+import React from 'react'
+
+export const App = () => <div>My React App</div>
+
+```
+Discuss: 
+- modules
+- stateless components
+
+
+## Add a "render target" to your web app
+
+We need to create a location for where to render our (future) React components.
+
+``` /client/index.html ```
+
+
+```html
+<body><div id="app"></div></body>
 
 
 
