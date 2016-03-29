@@ -11,7 +11,7 @@
 * [Adding Publications and Subcriptions](adding_publications_and_subcriptions.md)
 * [Deleting a Note](deleting_a_note.md)
 * [(OLD) App Homepage](app_homepage.md)
-* [Pt 2 - Create a Note - toggle](create_a_note.md)
+* [(OLD) Create a Note - toggle](create_a_note.md)
 * [Note Details View](note_details_view.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
 * [Notes](notes.md)
