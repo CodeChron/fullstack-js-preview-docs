@@ -7,3 +7,6 @@
 
 ![Create note - simplified](images/create-note-simplified.png)
 
+
+Here, we have a static app header and a component that submits that was input to a handler.
+
