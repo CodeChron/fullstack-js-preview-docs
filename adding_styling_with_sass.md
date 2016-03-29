@@ -22,7 +22,6 @@ This little meta tag is essential in allowing us to display info properly on mob
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body><div id="app"></div></body>
 ```
 
 # Add Support for SCSS (Sass)
