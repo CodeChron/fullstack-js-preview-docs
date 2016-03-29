@@ -14,7 +14,7 @@
 
 ![Sample Screen Setup](images/sample-screen-setup.png)
 
-## Remove some default files and code
+## Replace some default Meteor files and code
 
 ``` rm client/main.css client/main.js ```
 
@@ -24,10 +24,14 @@ Update client/main.html to be as follows:
 
 
 ```html
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body><div id="app"></div></body>
 ```
 
 - Discuss Metor Blaze rendering engine (which we removed)
+- Discuss: why no html tags?
 
 
 
