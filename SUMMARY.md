@@ -16,5 +16,5 @@
 * [Note Details View](note_details_view.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
 * [Notes](notes.md)
-* Add a New Note Form
+* [Add a New Note Form](add_a_new_note_form.md)
 
