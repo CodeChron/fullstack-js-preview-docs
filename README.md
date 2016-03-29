@@ -16,9 +16,18 @@
 
 ## Remove some default files and code
 
-``` rm client/main.css ```
+``` rm client/main.css client/main.js ```
 
-_others_?
+Update client/main.html to be as follows:
+
+``` /client/main.html ```
+
+
+```html
+<body><div id="app"></div></body>
+```
+
+- Discuss Metor Blaze rendering engine (which we removed)
 
 
 
