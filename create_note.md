@@ -4,3 +4,5 @@
 - Let's therefore first implement a very basic Notes CRUD, then add the more advanced stuff.
 - As before, we want to think visually when using React.  Here is our simplified app component hierarchy:
 
+![Create note - simplified](images/create-note-simplified.png)
+
