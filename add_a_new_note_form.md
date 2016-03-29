@@ -1,28 +1,79 @@
 # Add a New Note Form
 
+Next, let's add a form that will allow us to just type something and use the return key to submit the data to a handler.
 
 ``` /client/forms/single_field_submit.jsx ```
 
 ```js
-
 import React from 'react'
 
-export const PageTitle = (props) => <h1 className="page-title">{props.pageTitle}</h1>
+export class SingleFieldSubmit extends React.Component {
 
-PageTitle.propTypes = {
-	pageTitle: React.PropTypes.string
+  constructor(props){
+    super(props)
+    this.state = {
+      inputValue: this.props.inputValue,
+      autoFocus: this.props.autoFocus
+    }
+  }
+
+  updateInputValue(e){
+    this.setState({inputValue: e.target.value})
+  }
+
+  handleSubmit(e) {
+    e.preventDefault()
+    this.handleContentInput()
+  }
+
+  handleOnKeyPress(e) {
+    // submit via return key, needed for some devices
+    if ( e.which === 13 ) {
+      e.preventDefault()
+      this.handleContentInput()
+    }
+  }
+
+  handleContentInput(){
+    this.props.handleInput(this.state.inputValue.trim())
+  }
+
+  render() {
+      return <form className="single-field-submit" onSubmit={this.handleSubmit}>
+        <input
+          type="text"
+          name="newNote"
+          placeholder={this.props.placeholder}
+          value={this.state.inputValue}
+          onChange={this.updateInputValue}
+          autoFocus={this.state.autoFocus}
+          onKeyPress={this.handleOnKeyPress}
+          onBlur={this.handleOnBlur}
+        />
+         <input type="submit" style={{display:'none'}} />
+      </form>
+  }
 }
 
-PageTitle.defaultProps = { 
-  pageTitle: "My Notes App"
+SingleFieldSubmit.propTypes = {
+  handleInput: React.PropTypes.func.isRequired,
+  placeholder: React.PropTypes.string
 }
 
+SingleFieldSubmit.defaultProps = {
+  inputValue:  ""  ,
+  placeholder: "New...",
+  autoFocus:  true,
+  saveOnBlur: false,
+  handleOnBlur: null
+}
 ```
+- Discuss: using React.Component
+- Discuss need for form tag
+- Discuss various handler functions
+- Discuss React event model
 
-- Discuss: component naming, why page title?
-- Discuss: props, propTypes, and useful defaults.
-
-# Insert the Page Title component
+# Insert New Note Form
 
 Let's now add this component to the main app:
 
