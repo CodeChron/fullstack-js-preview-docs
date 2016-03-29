@@ -16,3 +16,5 @@ Here, we have a static app header and a component that submits that was input to
 ## Add a single field submit component
 - Discuss component naming
 - After creating: where will the data go?
+
+NOTE: May be introducing styling and SASS already here.
