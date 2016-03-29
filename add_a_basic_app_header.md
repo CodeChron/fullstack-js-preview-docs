@@ -1,8 +1,4 @@
-# Add a basic app header
-
-Here, we have a static app header and a component that submits that was input to a handler.
-
-## Add an app title component
+# Add an app title component
 
 
 ``` /client/content/page_title.jsx ```
@@ -30,6 +26,15 @@ PageTitle.defaultProps = {
 # Insert the Page Title component
 
 Let's now add this component to the main app:
+
+```js
+...
+import {PageTitle} from './content/page_title'
+
+export const App = () => <div><PageTitle /></div>
+
+```
+You should now see your default page title in the browser window.
 
 
 ## Add a single field submit component
