@@ -19,7 +19,6 @@ PageTitle.defaultProps = {
 
 ```
 
-
 - Discuss: component naming, why page title?
 - Discuss: props, propTypes, and useful defaults.
 
