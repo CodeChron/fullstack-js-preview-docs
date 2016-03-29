@@ -79,4 +79,20 @@ We need to create a location for where to render our (future) React components.
 <body><div id="app"></div></body>
 
 
+## Tell Meteor to render to our target location on startup. 
+Note the '.jsx' file name extension:
 
+``` /client/startup.js ```
+
+```js
+import React from 'react'
+import ReactDOM from 'react-dom'
+import {App} from './app'
+
+Meteor.startup(function(){
+  ReactDOM.render(<App />, document.getElementById("app"))
+})
+
+You should now see something like this:
+
+![React app default view](images/react-app-default.png)
