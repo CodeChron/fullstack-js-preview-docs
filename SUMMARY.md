@@ -8,7 +8,7 @@
 * [Create Notes (and add data support)](create_note.md)
 * [List Notes](list_notes.md)
 * [Delete a Note](delete_a_note.md)
-* [Add a Homepage](add_a_homepage.md)
+* [(OLD) Add a Homepage](add_a_homepage.md)
 * [(OLD) Adding styling with Sass](adding_styling_with_sass.md)
 * [Adding Publications and Subcriptions](adding_publications_and_subcriptions.md)
 * [(OLD) App Homepage](app_homepage.md)
