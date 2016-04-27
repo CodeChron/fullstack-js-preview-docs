@@ -15,4 +15,5 @@
 * [(OLD) Create a Note - toggle](create_a_note.md)
 * [(OLD) Note Details View](note_details_view.md)
 * [Notes](notes.md)
+* Add Styling (if time)
 
