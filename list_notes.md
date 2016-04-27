@@ -25,6 +25,8 @@ List.propTypes = {
 
 Discuss: required propTypes
 
+## Place SingleFieldSubmit at the top of the list
+
 ## Display notes in the list
 
-## Place SingleFieldSubmit at the top of the list
+
