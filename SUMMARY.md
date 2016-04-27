@@ -4,7 +4,7 @@
 * [App Setup](app_setup.md)
 * [Add React](add_react.md)
 * [App Component Hierarchy](app_component_hierarchy.md)
-* Add App Header (Styling, Layout)
+* [Add App Header (Styling, Layout)](add_app_header.md)
 * [Create Notes](create_note.md)
 * [Add a Homepage](add_a_homepage.md)
 * [Adding styling with Sass](adding_styling_with_sass.md)
