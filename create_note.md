@@ -86,6 +86,7 @@ Now, add ``` autoBind(this)``` to your constructor and remove all your ``` ...bi
 
 
 ## Create a Notes (Data) Container
+_TODO: create a version of this with just the single field submit_
 
 
 ```js
