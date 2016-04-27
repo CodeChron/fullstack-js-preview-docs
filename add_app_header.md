@@ -51,4 +51,7 @@ export const AppLayout = () =>
   </div>
 ```
 
+You should now see an unstyled version of the app header
+
+## Add some basic styling
 
