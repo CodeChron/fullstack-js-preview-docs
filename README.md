@@ -35,11 +35,11 @@ Each step in the tutorial has a corresponding branch in the [github repo](https:
 
 ### Getting caught up using git branches.
 1. Clone the tutorial: ```git clone https://github.com/CodeChron/intro-to-meteor-react.git```
-2. Cd into the tutorial project: ```cd intro-to-meteor-react```
-2. Pull down all branches: ```git pull --all```
+2. Cd into the tutorial project: ```cd dir name```
+2. Pull down all branches: ```git fetch --all```
 3. View available branches: ```git branch -a```
+4. Check out a specific branch: ```git checkout origin/[branchname]``` eg ```git checkout origin/setup```
 
-Now, you should be all set to get caught up to a tutorial step if needed.
 
 ## Additional Reading/Resources
 - [Pete Hunt: Rethinking Best Practices](https://www.youtube.com/watch?v=DgVS-zXgMTk#t=1432)
