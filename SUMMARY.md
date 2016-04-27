@@ -4,7 +4,7 @@
 * [The App We'll Be Building](the_app_well_be_building.md)
 * [App Setup](app_setup.md)
 * [Add React](add_react.md)
-* [Create Note - Simplified](create_note.md)
+* [Create Notes](create_note.md)
 * [Add a Homepage](add_a_homepage.md)
 * [Adding styling with Sass](adding_styling_with_sass.md)
 * [Add an app title](add_a_basic_app_header.md)
