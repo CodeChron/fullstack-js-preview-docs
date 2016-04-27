@@ -13,7 +13,6 @@
 * [Add an app title](add_a_basic_app_header.md)
 * [Add a New Note Form](add_a_new_note_form.md)
 * [Adding Data](adding_data.md)
-* [Add a Notes List](add_a_notes_list.md)
 * [Adding Publications and Subcriptions](adding_publications_and_subcriptions.md)
 * [(OLD) App Homepage](app_homepage.md)
 * [(OLD) Create a Note - toggle](create_a_note.md)
