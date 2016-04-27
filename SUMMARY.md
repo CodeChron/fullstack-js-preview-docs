@@ -4,6 +4,7 @@
 * [App Setup](app_setup.md)
 * [Add React](add_react.md)
 * [App Component Hierarchy](app_component_hierarchy.md)
+* Add App Header (Styling, Layout)
 * [Create Notes](create_note.md)
 * [Add a Homepage](add_a_homepage.md)
 * [Adding styling with Sass](adding_styling_with_sass.md)
@@ -18,5 +19,4 @@
 * [Note Details View](note_details_view.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
 * [Notes](notes.md)
-* Add App Header (Styling, Layout)
 
