@@ -26,6 +26,10 @@ List.propTypes = {
 Discuss: required propTypes
 
 ## Place SingleFieldSubmit at the top of the list
+ - Discuss copy props.
+
+## Make Add Item an optional "feature" of a list.
+_TODO_
 
 ## Display notes in the list
 
