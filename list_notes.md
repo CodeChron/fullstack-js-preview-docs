@@ -23,6 +23,8 @@ List.propTypes = {
 }
 ```
 
+Discuss: required propTypes
+
 ## Display notes in the list
 
 
