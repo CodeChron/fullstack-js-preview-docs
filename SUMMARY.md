@@ -17,5 +17,5 @@
 * [Note Details View](note_details_view.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
 * [Notes](notes.md)
-* App Component Hierarchy
+* [App Component Hierarchy](app_component_hierarchy.md)
 
