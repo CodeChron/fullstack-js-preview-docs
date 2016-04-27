@@ -9,7 +9,7 @@ First, we need to enable use of data in our React components.  There are many wa
 
 
 ## Add Notes Collection
-``` ADD PATH ```
+``` /imports/api/notes/notes.js ```
 
 ```js
 import { Mongo } from 'meteor/mongo'
