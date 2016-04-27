@@ -4,26 +4,13 @@
 
 - Show the finished app we'll build in the weekend workshop.
 
-- As a preview, we're going to build a click-to-edit component.
-- Create a dumb text block component.
-- Enable the component to accept click events.
-- Add a container component that handles the click event.
-- Change the state of the container component to be edit state.
-- Add a textarea component.
-- Add some styling to make it full screen.
-- Associate with data backend.
-- Add auto-save
-- Add a done button.
-- For fun, add markdown, just to show how easy it is.
-
 
 ## The app we'll build
 _TODO: insert screen cap of finished app_
 _TODO: demo the app_
-- Discuss major features covered.
-- Discuss component hierarchy and visualization
-- Discuss Trello board and feature backlog
-- TODO: Create/Reuse Logd mockups, with app hierarchy info
+- _Add github link_
+
+- TODO: list major features
 
 
 ### The app we'll build in the full course
@@ -77,4 +64,6 @@ Now, you should be all set to get caught up to a tutorial step if needed.
 _TODO_ Add links to my CodeChron blog posts
 
 
-
+## Notes
+- Discuss component hierarchy and visualization
+- Discuss Trello board and feature backlog
