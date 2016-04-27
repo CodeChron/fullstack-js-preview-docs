@@ -31,3 +31,43 @@ Update client/main.html to be as follows:
 
 - Discuss Metor Blaze rendering engine (which we removed)
 - Discuss: why no html tags?
+
+
+# Branch: 01-Setup
+_keep these instructions brief and reference codechron blog posts_
+
+## Project and App setup
+Create your project directory
+
+```mkdir my_notes_app  && cd my_notes_app```
+
+```echo "# My Notes App" >> README.md```
+
+(Optional, initialize a git repo.)
+
+Reference: http://coderchronicles.org/2016/04/08/getting-started-with-meteor-1-3-react-and-flowrouter/#Create_a_project_directory_set_up_version_control_and_install_Meteor
+
+
+## Create the Meteor app
+
+```meteor create app``
+
+``` cd app```
+
+Start up your Meteor app and view both server and console.
+See CodeChron article.
+
+## Move app files into "imports"
+- create imports dir
+- move files into ```/imports/startup``` 
+- import files to the client and server.
+
+You should now see the same welcome info you see by default.  If so, you know your imports are set up properly.
+
+## Add mobile meta tags
+
+```html
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+```
