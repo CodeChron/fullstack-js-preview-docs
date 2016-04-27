@@ -7,6 +7,10 @@ _TODO: insert screen cap of finished app_
 
 _TODO: demo the app_
 
+- Discuss component hierarchy and visualization
+- Discuss Trello board and feature backlog
+- TODO: Create/Reuse Logd mockups, with app hierarchy info
+
 
 ### The app we'll build in the full course
 _TODO: insert screen cap of finished app for full course_
