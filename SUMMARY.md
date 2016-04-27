@@ -18,4 +18,5 @@
 * [Note Details View](note_details_view.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
 * [Notes](notes.md)
+* Add App Header (Styling, Layout)
 
