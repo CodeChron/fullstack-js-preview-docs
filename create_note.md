@@ -19,6 +19,8 @@ export const Notes = new Mongo.Collection('notes')
 
 ``` /imports/components/forms/single_field_submit.jsx ```
 
+TODO: do this without binding, then add auto-bind
+
 ```js
 import React from 'react'
 import autoBind from 'react-autobind'
