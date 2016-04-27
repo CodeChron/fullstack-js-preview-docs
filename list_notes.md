@@ -27,5 +27,4 @@ Discuss: required propTypes
 
 ## Display notes in the list
 
-
 ## Place SingleFieldSubmit at the top of the list
