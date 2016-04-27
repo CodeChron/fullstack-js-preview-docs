@@ -5,3 +5,9 @@ React uses a hierarchical component architecture.  The React model encourages ta
 A key purpose of this exercise is to think about what each component will be responsible for.
 
 _insert component hierarchy_
+
+## Visualizing the app hierarchy
+
+![preview app component hierarchy](images/my-notes-app.png)
+
+This is essential when building an app, to help with and planning and think through your component hierarchy.  
