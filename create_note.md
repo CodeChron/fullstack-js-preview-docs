@@ -95,6 +95,21 @@ _TODO: create a version of this with just the single field submit_
 code
 ```
 
+## Add notes collection to the server side
+If we try adding notes at this point, we'll get an error.
+
+``` /imports/startup/server/index.js ```
+
+```js 
+import { Notes} from '/imports/api/notes/notes'
+```
+
+``` /server/index.js ```
+
+```js 
+import '/imports/startup/server/'
+```
+
 ## View the notes you've created
 - view in the mongo console
 -  view using the mongol package
