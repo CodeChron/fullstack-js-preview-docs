@@ -1,5 +1,5 @@
 # App Setup
-## App setup
+
 - create project dir with readme and tmp directory and .gitignore
 - initialize git
 - create Meteor app:
