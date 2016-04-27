@@ -1,4 +1,11 @@
-# Create Notes
+# Create Notes (Add Data Support)
+First, we need to enable use of data in our React components.  There are many ways to do this.  I prefer the official Meteor method.
+
+## Add support for handling Meteor Data in React
+
+- Add the Meteor package: ```meteor add meteor-react-data```
+- Add the npm package: ```npm i react-addons-pure-render-mixin --save```
+
 
 ## Add Notes Collection
 ``` ADD PATH ```
@@ -10,16 +17,11 @@ import { Meteor } from 'meteor/meteor'
 export const Notes = new Mongo.Collection('notes')
 ```
 
-## Add support for handling Meteor Data in React
-
-- Add the Meteor package: ```meteor add meteor-react-data```
-- Add the npm package: ```npm i react-addons-pure-render-mixin --save```
-
 ## Add a React component that supports creating notes on submit (return key)
 
 ``` /imports/components/forms/single_field_submit.jsx ```
 
-TODO: do this without binding, then add auto-bind
+_TODO: do this without binding, then add auto-bind_
 
 ```js
 import React from 'react'
@@ -69,6 +71,8 @@ SingleFieldSubmit.defaultProps = {
   placeholder: "New..."
 }
 ```
+
+- Discuss: Stateful React components, use of the constructor, passing props, binding, propTypes, and default props
 
 ## Auto-binding functions
 Why is binding necessary? See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
