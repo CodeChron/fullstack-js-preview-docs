@@ -1,6 +1,59 @@
 # Add React
 
-## Add React
+Branch: 02-add-react
+
+- rm all blaze templates
+- install react via npm - be sure you are in the app directory
+
+```meteor npm install react react-dom --save```
+
+## Add an app layout component
+
+```js 
+import React from 'react'
+
+export const AppLayout = () =>
+  <div id="app-container">
+    <div id="main-content">
+      React placeholder
+    </div>
+  </div>
+```
+- Discuss: stateless React components
+- 
+## add a render target
+```html
+<body>
+  <div id="app"></div>
+</body>
+```
+
+## render it
+```js
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { AppLayout } from '/imports/components/layouts/app_layout'
+
+Meteor.startup(() =>
+	ReactDOM.render(<AppLayout />, document.getElementById("app"))
+)
+```
+
+## import on startup
+
+```js
+import './main.html'
+import './main.js'
+
+```
+
+You should now see this in browser:
+
+![React Placeholder](images/react-placeholder.png)
+
+
+
+
 - Discuss using npm instead of Meteor packages
 
 [NEW SECTION]
@@ -64,57 +117,4 @@ Meteor.startup(function(){
 You should now see something like this:
 
 ![React app default view](images/react-app-default.png)
-
-# Add React
-
-Branch: 02-add-react
-
-- rm all blaze templates
-- install react via npm - be sure you are in the app directory
-
-```meteor npm install react react-dom --save```
-
-## Add an app layout component
-
-```js 
-import React from 'react'
-
-export const AppLayout = () =>
-  <div id="app-container">
-    <div id="main-content">
-      React placeholder
-    </div>
-  </div>
-```
-- Discuss: stateless React components
-- 
-## add a render target
-```html
-<body>
-  <div id="app"></div>
-</body>
-```
-
-## render it
-```js
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { AppLayout } from '/imports/components/layouts/app_layout'
-
-Meteor.startup(() =>
-	ReactDOM.render(<AppLayout />, document.getElementById("app"))
-)
-```
-
-## import on startup
-
-```js
-import './main.html'
-import './main.js'
-
-```
-
-You should now see this in browser:
-
-![React Placeholder](images/react-placeholder.png)
 
