@@ -67,5 +67,6 @@ The browser should now update to display your notes as you add them
 
 _insert screen shot_
 
+- Discuss: reactively updating data. 
 
 
