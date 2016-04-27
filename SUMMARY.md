@@ -7,6 +7,7 @@
 * [Add App Header (Styling, Layout)](add_app_header.md)
 * [Create Notes](create_note.md)
 * [List Notes](list_notes.md)
+* [Delete a Note](delete_a_note.md)
 * [Add a Homepage](add_a_homepage.md)
 * [Adding styling with Sass](adding_styling_with_sass.md)
 * [Add an app title](add_a_basic_app_header.md)
@@ -20,5 +21,4 @@
 * [Note Details View](note_details_view.md)
 * [Build the ClickToEdit component](clicktoedit_component.md)
 * [Notes](notes.md)
-* [Delete a Note](delete_a_note.md)
 
