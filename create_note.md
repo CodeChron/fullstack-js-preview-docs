@@ -93,3 +93,8 @@ _TODO: create a version of this with just the single field submit_
 ```js
 code
 ```
+
+## View the notes you've created
+- view in the mongo console
+-  view using the mongol package
+
