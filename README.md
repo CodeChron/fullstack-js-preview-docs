@@ -1,15 +1,13 @@
 # Preview of Full-stack Web Development with Meteor and React
 In this tutorial, we’re going to build a simple web app using using Meteor and React. This will be a simplified version of a more advance app we'll build in a two-day workshop on full-stack web development with Meteor and React.
 
-## What we'll cover today
-
-- Show the finished app we'll build in the weekend workshop.
-
-
 ## The app we'll build
 _TODO: insert screen cap of finished app_
 _TODO: demo the app_
 - _Add github link_
+
+- [Finished version of the app](http://intro-to-meteor-react.meteor.com/)
+- [Github Repo](https://github.com/CodeChron/intro-to-meteor-react)
 
 - TODO: list major features
 
@@ -26,12 +24,6 @@ _TODO: demo the app_
 - Handling list scaling
 - Deployment
 
-
-
-
-
-- [Finished version of the app](http://intro-to-meteor-react.meteor.com/)
-- [Github Repo](https://github.com/CodeChron/intro-to-meteor-react)
 
 ##Prerequisites 
 - Basic knowledge of HTML, JavaScript, and use of a command line terminal.
