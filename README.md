@@ -23,7 +23,6 @@ _TODO: demo the app_
 - Handling list scaling
 - Deployment
 
-
 ##Prerequisites 
 - Basic knowledge of HTML, JavaScript, and use of a command line terminal.
 - A laptop with a code editor of your choice.  We’ll be using [Sublime Text](http://www.sublimetext.com/3 ).
