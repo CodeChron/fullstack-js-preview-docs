@@ -4,7 +4,7 @@ First, we need to enable use of data in our React components.  There are many wa
 
 ## Add support for handling Meteor Data in React
 
-- Add the Meteor package: ```meteor add meteor-react-data```
+- Add the Meteor package: ```meteor add react-meteor-data```
 - Add the npm package: ```npm i react-addons-pure-render-mixin --save```
 
 
@@ -88,6 +88,7 @@ Now, add ``` autoBind(this)``` to your constructor and remove all your ``` ...bi
 
 ## Create a Notes (Data) Container
 _TODO: create a version of this with just the single field submit_
+
 
 
 ```js
