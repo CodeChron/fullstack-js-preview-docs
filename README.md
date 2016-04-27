@@ -2,6 +2,9 @@
 In this tutorial, we’re going to build a simple web app using using Meteor and React. This will be a simplified version of a more advance app we'll build in a two-day workshop on full-stack web development with Meteor and React.
 
 ## The app we'll build during the preview class
+
+This app will basically be a Tracer Bullet of the app we'll build in the 2-day workshop.
+
 _TODO: insert screen cap of finished app_
 _TODO: demo the app_
 - _Add github link_
