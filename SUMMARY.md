@@ -8,7 +8,7 @@
 * [Create Notes (and add data support)](create_note.md)
 * [List Notes](list_notes.md)
 * [Delete a Note](delete_a_note.md)
-* Click-to-Edit (If Time)
+* [Click-to-Edit (If Time)](click-to-edit_if_time.md)
 * [(OLD) Add a Homepage](add_a_homepage.md)
 * [(OLD) Adding styling with Sass](adding_styling_with_sass.md)
 * [(OLD) App Homepage](app_homepage.md)
