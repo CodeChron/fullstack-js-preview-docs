@@ -11,25 +11,17 @@ import React from 'react'
 
 export const AppHeaderLayout = (props) =>
   <div id="app-header">
-  	<div className="header-left">
-	   {props.headerLeft}
-	  </div>
-	  <div className="header-center">
-	    {props.headerCenter}
-	  </div>
-	  <div className="header-right">
-      {props.headerRight}
-    </div>
+	<div className="header-center">
+      <h1 className="page-title">{props.pageTitle}</h1>
+	</div>
   </div>
 
 AppHeaderLayout.propTypes = {
-  headerLeft:   React.PropTypes.object,
-  headerCenter: React.PropTypes.object,
-  headerRight:  React.PropTypes.object
+  pageTitle: React.PropTypes.string
 }
 
 AppHeaderLayout.defaultProps = { 
-  headerCenter: <h1 className="page-title">My Notes App</h1>
+  pageTitle: "My Notes App"
 }
 ```
 
