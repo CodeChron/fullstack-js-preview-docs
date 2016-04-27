@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [The App We'll Be Building](the_app_well_be_building.md)
 * [App Setup](app_setup.md)
 * [Add React](add_react.md)
 * [Create Notes](create_note.md)
