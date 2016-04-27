@@ -33,7 +33,6 @@ _TODO: demo the app_
 This is essential when building an app, to help with and planning and think through your component hierarchy.  
 
 
-#Introduction to Meteor and React
 
 <div style="text-align:center">
 <a href="http://intro-to-meteor-react.meteor.com/"><img width="600" alt="screen shot 2016-01-31 at 5 23 24 pm" src="https://cloud.githubusercontent.com/assets/819213/12705378/653eea50-c83f-11e5-9e10-db3fc4dc5236.png"></a></div></div>
