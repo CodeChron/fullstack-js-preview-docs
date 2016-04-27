@@ -113,5 +113,5 @@ import '/imports/startup/server/'
 
 ## View the notes you've created
 - view in the mongo console
--  view using the mongol package
+- view using the mongol package
 
