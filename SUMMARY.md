@@ -12,6 +12,6 @@
 * [(OLD) Adding styling with Sass](adding_styling_with_sass.md)
 * [(OLD) App Homepage](app_homepage.md)
 * [(OLD) Create a Note - toggle](create_a_note.md)
-* [Note Details View](note_details_view.md)
+* [(OLD) Note Details View](note_details_view.md)
 * [Notes](notes.md)
 
