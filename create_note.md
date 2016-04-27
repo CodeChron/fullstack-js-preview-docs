@@ -1,6 +1,7 @@
 # Create Notes
 
 ## Add Notes Collection
+``` ADD PATH ```
 
 ```js
 import { Mongo } from 'meteor/mongo'
@@ -8,7 +9,6 @@ import { Meteor } from 'meteor/meteor'
 
 export const Notes = new Mongo.Collection('notes')
 ```
-
 
 ## Add support for handling Meteor Data in React
 
