@@ -97,6 +97,7 @@ code
 
 ## Add notes collection to the server side
 If we try adding notes at this point, we'll get an error.
+The Notes collection we created needs to be available on the server for database updates to work.
 
 ``` /imports/startup/server/index.js ```
 
