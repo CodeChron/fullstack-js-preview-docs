@@ -72,7 +72,7 @@ SingleFieldSubmit.defaultProps = {
 }
 ```
 
-- Discuss: Stateful React components, use of the constructor, passing props, binding, propTypes, and default props
+- Discuss: Stateful React components, use of the constructor, passing props, binding, propTypes, and default props.
 
 ## Auto-binding functions
 Why is binding necessary? See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
@@ -85,22 +85,8 @@ Now, add ``` autoBind(this)``` to your constructor and remove all your ``` ...bi
 
 
 
-```js
-code
-```
-- Reference the desired create note flow, with a redirect after create and a note details view. Also requires private notes which means authentications. It would also require adding routing. This is too advanced and too much to try to do all at once.
+## Create a Notes (Data) Container
 
-- Discuss breaking larger problems into smaller ones.
-- Let's therefore first implement a very basic Notes CRUD, then add the more advanced stuff.
-- As before, we want to think visually when using React.  Here is our simplified app component hierarchy:
-
-
-
-
-Here, we have a static app header and a component that submits that was input to a handler.
-
-
-## Section
 
 ```js
 code
