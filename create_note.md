@@ -17,7 +17,7 @@ import { Meteor } from 'meteor/meteor'
 export const Notes = new Mongo.Collection('notes')
 ```
 
-## Add a React component that supports creating notes on submit (return key)
+## Add a React component that supports creating notes on submit
 
 ``` /imports/components/forms/single_field_submit.jsx ```
 
