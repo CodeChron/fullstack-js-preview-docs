@@ -71,6 +71,15 @@ SingleFieldSubmit.defaultProps = {
 ```
 
 ## Auto-binding functions
+Why is binding necessary? See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
+
+Let's make things easy and just auto-bind instead
+
+``` npm i react-autobind --save ```
+
+Now, add ``` autoBind(this)``` to your constructor and remove all your ``` ...bind(this) ```
+
+
 
 ```js
 code
