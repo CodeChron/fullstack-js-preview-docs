@@ -27,9 +27,8 @@ Discuss: required propTypes
 
 ## Place SingleFieldSubmit at the top of the list
  - Discuss copy props.
+ - Discuss: making add Item an optional "feature" of a list. We'll do that later.
 
-## Make Add Item an optional "feature" of a list.
-_TODO_
 
 ## Display notes in the list
 
