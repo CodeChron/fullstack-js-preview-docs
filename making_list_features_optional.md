@@ -62,3 +62,16 @@ List.defaultProps = {
 ```
 
 
+## "Turn on" the features via props
+
+``` /imports/containers/note_container.jsx ```
+
+
+```js
+  return {
+     ...
+	  addItem: true,
+	  deleteItem: true
+  }
+```
+
