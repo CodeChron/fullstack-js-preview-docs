@@ -25,8 +25,26 @@ What is auto-prefixing?
 
 ## Add and import a main stylesheet
 
-Create an empty file at: 
+Create a "main" scss file at: 
 ```/imports/stylesheets/main.scss ```
+
+Add the following comment blocks.  This is the general structure of the our stylesheets.
+
+```js
+// CORE
+// Here we'll add base files that are not specific to any design and which support other stylesheets
+
+
+// LAYOUTS
+// We'll likely have multiple layouts, such as the overall app layout, a centered layout for a login view and more.
+
+//COMPONENTS
+// styles generally corresponding to our UI components
+
+//THEME
+// color palette, typography, etc.
+
+```
 
 Then import it on startup:
 
@@ -37,3 +55,13 @@ import '../../stylesheets/main.scss'
 ...
 ```
 Note that it is the first item to be imported, and that we are including the extension here.
+
+- What's the purpose of the main.scss file?
+
+
+## Add Normalize
+What is normalize?
+
+```/imports/stylesheets/main.scss ```
+
+Why are we adding it is as a local file and not, for example via CDN?
