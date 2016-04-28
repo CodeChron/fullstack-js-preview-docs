@@ -22,3 +22,18 @@ Add this to the root directory of the app:
 }
 ```
 What is auto-prefixing?
+
+## Add and import a main stylesheet
+
+Create an empty file at: 
+```/imports/stylesheets/main.scss ```
+
+Then import it on startup:
+
+``` /imports/startup/client/index.js ```
+
+```js
+import '../../stylesheets/main.scss'
+...
+```
+Note that it is the first item to be imported, and that we are including the extension here.
