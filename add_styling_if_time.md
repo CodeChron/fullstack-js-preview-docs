@@ -51,10 +51,10 @@ Then import it on startup:
 ``` /imports/startup/client/index.js ```
 
 ```js
-import '../../stylesheets/main.scss'
+import '../../stylesheets/main'
 ...
 ```
-Note that it is the first item to be imported, and that we are including the extension here.
+Note that it is the first item to be imported.
 
 - What's the purpose of the main.scss file?
 
