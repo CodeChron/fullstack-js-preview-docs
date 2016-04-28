@@ -11,7 +11,6 @@
 * [Making List Features Optional](making_list_features_optional.md)
 * [Add Styling (if time)](add_styling_if_time.md)
 * [Click-to-Edit (If Time)](click-to-edit_if_time.md)
-* [(OLD) App Homepage](app_homepage.md)
 * [(OLD) Create a Note - toggle](create_a_note.md)
 * [(OLD) Note Details View](note_details_view.md)
 * [Notes](notes.md)
