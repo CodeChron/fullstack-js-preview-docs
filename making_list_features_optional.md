@@ -15,13 +15,50 @@ Let's make the add item form and the delete button optional in the list.  This w
 	}
 ...
 }
+```
 
-List.propTypes = {
-	collection: React.PropTypes.array.isRequired
+
+## Create a function for accessing a feature and passing in arguments
+
+```js
+...
+const displayFeature = (shouldDisplay, feature, args ) => {
+	  return shouldDisplay? feature(args) : null
+	}
+...
 }
 ```
 
-Discuss: required propTypes
 
+## Use the function to dynamically display a feature
+
+```js
+	return <ul>
+	    {displayFeature(props.addItem, listFeatures.addItem)}
+	    { 
+	    	props.collection.map((item) => {
+	 	      return <li key={item._id}>{item.content} {displayFeature(props.deleteItem, listFeatures.deleteItem, item)}
+	 	      </li>
+
+	      })
+	    }
+  </ul>
+}
+
+```
+
+## Add propTypes and defaultProps to hide features by default
+
+```js
+List.propTypes = {
+	collection: React.PropTypes.array.isRequired,
+	addItem: React.PropTypes.bool,
+	deleteItem:  React.PropTypes.bool,
+}
+List.defaultProps = {
+	addItem: false,
+	deleteItem: false
+}
+```
 
 
