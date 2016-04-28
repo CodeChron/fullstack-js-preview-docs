@@ -1,6 +1,7 @@
 # Delete a Note
 
-## Create a icon btn for deleting a note
+
+## Add a button component for deleting a note
 
 ## Add delete as an optional list feature
 
