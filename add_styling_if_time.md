@@ -56,7 +56,7 @@ import '../../stylesheets/main'
 ```
 Note that it is the first item to be imported.
 
-- What's the purpose of the main.scss file?
+What's the purpose of the main.scss file?
 
 
 ## Add Normalize
