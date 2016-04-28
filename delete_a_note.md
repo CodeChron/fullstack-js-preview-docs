@@ -49,6 +49,28 @@ Discuss need for {() => callFunction()} See http://stackoverflow.com/questions/3
 ## Handle deletion of a note
 
 
+``` /imports/containers/notes_container.jsx ```
+
+```js
+...
+
+export default createContainer(() => {
+ ...
+
+	const handleDelete = (note) => {
+		Notes.remove({_id: note._id})
+	}
+
+  return {
+    ...
+	  handleDelete: handleDelete
+  }
+
+}, List)
+
+```
+
+
 ## Make delete an optional list feature
 
 ## Add delete as an optional list feature
