@@ -8,7 +8,7 @@
 ```js
 import React from 'react'
 
-export const Button = (props) =>
+export const Btn = (props) =>
   <button onClick={props.handleClick}>
     {props.label}
   </button>
@@ -18,7 +18,7 @@ TextBtn.propTypes = {
 	label: React.PropTypes.string.isRequired
 }
 ```
-Discuss: will likely want to have many button types, eg text button, icon button.
+Discuss: Why not "Button"?, will likely want to have many button types, eg text button, icon button.
 
 
 ## Add delete as an optional list feature
