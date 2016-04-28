@@ -23,6 +23,8 @@ Add this to the root directory of the app:
 ```
 What is auto-prefixing?
 
+TODO: Insert link to the css-framework-starter repo.
+
 ## Add and import a main stylesheet
 
 Create a "main" scss file at: 
