@@ -9,3 +9,16 @@ Why use a css pre-processor?
 What are some alternatives to Sass?
 
 ``` meteor add fourseven:scss ```
+
+## Add support for auto-prefixing
+
+Add this to the root directory of the app:
+
+``` /scss.json ```
+
+```json
+{
+  "enableAutoprefixer": true
+}
+```
+What is auto-prefixing?
