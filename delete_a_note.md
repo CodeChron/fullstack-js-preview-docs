@@ -28,7 +28,20 @@ Discuss: Why not "Button"?, will likely want to have many button types, eg text 
 ``` /imports/components/lists/list.jsx ```
 
 ```js
+...
+import { Btn } from '../buttons/btn'
+...
+	const handleDelete = () => {
+		const confirmDelete = confirm("Really delete this?")
 
+ 	  if (confirmDelete) {
+ 	  	props.handleDelete(item)
+ 	  }
+	}
+    ...
+     return <li key={item._id}>{item.content} <Btn label={"x"}  handleClick={()=> handleDelete(item)} /></li>
+    ...
+    
 ```
 
 Discuss need for {() => callFunction()} See http://stackoverflow.com/questions/33846682/react-onclick-fuction-fires-on-render (TL;DR "Because you are calling that function instead of passing function to onClick"
