@@ -41,7 +41,6 @@ import { Btn } from '../buttons/btn'
     ...
      return <li key={item._id}>{item.content} <Btn label={"x"}  handleClick={()=> handleDelete(item)} /></li>
     ...
-    
 ```
 
 Discuss need for {() => callFunction()} See http://stackoverflow.com/questions/33846682/react-onclick-fuction-fires-on-render (TL;DR "Because you are calling that function instead of passing function to onClick"
