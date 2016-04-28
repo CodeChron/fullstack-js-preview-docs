@@ -80,3 +80,4 @@ List.defaultProps = {
   }
 ```
 
+Discuss: we can now easily scale this set of features.
