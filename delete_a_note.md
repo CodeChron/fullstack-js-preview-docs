@@ -73,6 +73,9 @@ export default createContainer(() => {
 
 ## Make delete an optional list feature
 
+
+
+
 ## Add delete as an optional list feature
 
 ## Delete notes on click
