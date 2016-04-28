@@ -11,5 +11,4 @@
 * [Making List Features Optional](making_list_features_optional.md)
 * [Add Styling (if time)](add_styling_if_time.md)
 * [Click-to-Edit (If Time)](click-to-edit_if_time.md)
-* [Notes](notes.md)
 
