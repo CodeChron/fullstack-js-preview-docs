@@ -2,6 +2,7 @@
 
 Let's make the add item form and the delete button optional in the list.  This will make the component more versatile and easier to re-use.
 
+Discuss: this is getting advanced...don't freak out :-}
 
 ## Move optional features into a collection
 
@@ -17,6 +18,7 @@ Let's make the add item form and the delete button optional in the list.  This w
 }
 ```
 
+Discuss use of objects and key/value pairs.
 
 ## Create a function for accessing a feature and passing in arguments
 
@@ -28,6 +30,9 @@ const displayFeature = (shouldDisplay, feature, args ) => {
 ...
 }
 ```
+
+
+Discuss optional arguments
 
 
 ## Use the function to dynamically display a feature
