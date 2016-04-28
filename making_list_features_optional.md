@@ -8,17 +8,12 @@ Let's make the add item form and the delete button optional in the list.  This w
 ``` /imports/components/lists/list.jsx ```
 
 ```js
-import React from 'react'
-
-export const List = (props) =>{
-
-	return <ul>
-	    { 
-	    	props.collection.map((item) => {
-	 	      return <li key={item._id}>{item.content}</li>
-	      })
-	    }
-  </ul>
+...
+ const listFeatures = {
+  	addItem: () => <li><SingleFieldSubmit {...props} /></li>,
+  	deleteItem: (args) => <Btn label={"x"}  handleClick={()=> handleDelete(args)} />
+	}
+...
 }
 
 List.propTypes = {
