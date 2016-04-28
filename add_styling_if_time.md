@@ -32,7 +32,7 @@ Add the following comment blocks.  This is the general structure of the our styl
 
 ```js
 // CORE
-// Here we'll add base files that are not specific to any design and which support other stylesheets
+// Here we'll add base files that are not specific to any design and which support other files
 
 
 // LAYOUTS
