@@ -76,7 +76,6 @@ export class SingleFieldSubmit extends React.Component {
       </form>
   }
 }
-
 SingleFieldSubmit.propTypes = {
   handleSubmit: React.PropTypes.func.isRequired,
   placeholder: React.PropTypes.string
