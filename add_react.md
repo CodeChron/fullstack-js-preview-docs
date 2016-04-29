@@ -9,18 +9,24 @@ Branch: 02-add-react
 
 ## Add an app layout component
 
+``` /imports/compononents/layouts/app_layout.jsx ```
 ```js 
 import React from 'react'
 
 export const AppLayout = () =>
-  <div id="app-container">
+  <div id="app-container" className="container">
     <div id="main-content">
       React placeholder
     </div>
   </div>
 ```
-- Discuss: stateless React components
-- 
+
+- What is the '=>' thing?
+- Isn't this just a plain JS function? Why are we not using React.createClass or React.Component?
+- Why are we using 'className' rather than class?
+
+
+ 
 ## add a render target
 ```html
 <body>
@@ -47,9 +53,9 @@ import './main.js'
 
 ```
 
-You should now see this in browser:
+You should now see this in your browser:
 
-![React Placeholder](images/react-placeholder.png)
+
 
 - Discuss using npm instead of Meteor packages
 
