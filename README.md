@@ -5,7 +5,8 @@ In this tutorial, we’re going to build a simple web app using using Meteor and
 
 This app will basically be a Tracer Bullet of the app we'll build in the 2-day workshop.
 
-_TODO: insert screen cap of finished app_
+![Finished version of the app](images/finished-app.png)
+
 _TODO: demo the app_
 
 - [Finished version of the app](http://intro-to-meteor-react.meteor.com/)
