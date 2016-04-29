@@ -44,7 +44,7 @@ import { IconBtn } from '../buttons/icon_btn'
     ...
 ```
 
-Discuss need for {() => callFunction()} See http://stackoverflow.com/questions/33846682/react-onclick-fuction-fires-on-render (TL;DR "Because you are calling that function instead of passing function to onClick"
+Discuss need for {() => callFunction()} See http://stackoverflow.com/questions/33846682/react-onclick-fuction-fires-on-render (TL;DR "Because you are calling that function instead of passing function to onClick")
 
 
 ## Handle deletion of a note
