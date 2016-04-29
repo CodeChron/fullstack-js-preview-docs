@@ -17,8 +17,6 @@ Branch: 02-add-react
 http://stackoverflow.com/questions/19578796/what-is-the-save-option-for-npm-install
 
 
-
-
 ## Add an app layout component
 
 ``` /imports/compononents/layouts/app_layout.jsx ```
