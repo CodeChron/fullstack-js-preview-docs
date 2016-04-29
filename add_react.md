@@ -37,14 +37,14 @@ export const AppLayout = () =>
 
 
  
-## add a render target
+## Add a render target
 ```html
 <body>
   <div id="app"></div>
 </body>
 ```
 
-## render it
+## Tell Meteor to render the app on startup
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -55,7 +55,7 @@ Meteor.startup(() =>
 )
 ```
 
-## import on startup
+## Import (and render) on Startup
 
 ```js
 import './main.html'
