@@ -1,18 +1,21 @@
 # List Notes
 
 ## Add a List Component
+Let's add a list component and have our new item form appear at the top.
 
 ``` /imports/components/lists/list.jsx ```
 
 ```js
 import React from 'react'
+import { SingleFieldSubmit } from '../forms/single_field_submit'
 
 export const List = (props) =>{
 
-	return <ul>
+	return <ul className="list-group">
+    	    <li className="list-group-item"><SingleFieldSubmit {...props} /></li>
 	    { 
 	    	props.collection.map((item) => {
-	 	      return <li key={item._id}>{item.content}</li>
+	 	      return <li key={item._id} className="list-group-item">{item.content}</li>
 	      })
 	    }
   </ul>
