@@ -9,5 +9,4 @@
 * [List Notes](list_notes.md)
 * [Delete a Note](delete_a_note.md)
 * [Making List Features Optional](making_list_features_optional.md)
-* [Click-to-Edit (If Time)](click-to-edit_if_time.md)
 
