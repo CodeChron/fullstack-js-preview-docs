@@ -40,3 +40,16 @@ You should now see the same welcome info you see by default.  If so, you know yo
 </head>
 ```
 
+
+## Install Bootstrap (optional)
+This step is completely optional but it will make our app look a little nicer :-)
+
+Make sure you are in your app directory:
+``` meteor add twbs:bootstrap ```
+
+After you install this, you should see the default welcome screen with Bootstrap styling applied.
+![Default welcome screen with Bootstrap installed](images/bootstrap-dflt.png)
+
+
+
+
