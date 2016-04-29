@@ -102,7 +102,7 @@ Let's make things easy and just auto-bind instead
 Now, add ``` autoBind(this)``` to your constructor and remove all your ``` ...bind(this) ```
 
 
-## Create a data container for handling form input
+# Create a data container for handling form input
 We need to handle the data submitted in the form.  For this, we'll create a container, that allows us to interface between React and Meteor.
 
 ``` /imports/components/containers/notes_container.js ```
@@ -129,7 +129,7 @@ export default createContainer(() => {
 ```
 
 
-## Add the container (wrapping the form) to our app layout
+# Add the container (wrapping the form) to our app layout
 
 ``` /imports/components/layouts/app_layout.jsx ```
 
@@ -145,9 +145,28 @@ export const AppLayout = () =>
   ...
 ```
 
-## Add 
+# Try creating some notes
+If you enter some text and hit return, it will appear as if nothing is happening. This is only because we haven't added support yet for viewing notes.
 
-## View the notes you've created
-- view in the mongo console
-- view using the mongol package
+## View your notes in a mongo console
 
+In your terminal, open a new window):
+
+``` meteor mongo ``` (make sure meteor is still running)
+
+``` 
+meteor:PRIMARY> db.notes.find().pretty()
+
+{
+	"_id" : "PJr8Ykuz7yBaT5RpL",
+	"content" : "a test note",
+	"updatedAt" : ISODate("2016-04-28T16:28:26.298Z")
+}
+{
+	"_id" : "bqfx2Xw9RW5MnPGua",
+	"content" : "another test note",
+	"updatedAt" : ISODate("2016-04-28T16:28:30.332Z")
+}
+```
+
+You can also view them directly in the client using the [mongol package](https://atmospherejs.com/msavin/mongol).
