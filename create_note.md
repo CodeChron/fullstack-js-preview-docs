@@ -63,7 +63,6 @@ export class SingleFieldSubmit extends React.Component {
 
   render() {
       return <form  className="form-inline" onSubmit={this.handleSubmit}>
-      <div className="form-group">
         <input
           type="text"
           className="form-control"
@@ -71,7 +70,6 @@ export class SingleFieldSubmit extends React.Component {
           value={this.state.inputValue}
           onChange={this.updateInputValue}
         />
-        </div>
       </form>
   }
 }
