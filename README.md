@@ -12,19 +12,6 @@ _TODO: demo the app_
 - [Github Repo](https://github.com/CodeChron/intro-to-meteor-react): https://github.com/CodeChron/fullstack-js-preview
 - _TODO: list major features_
 
-
-## The app we'll build in the full workshop
-_TODO: insert screen cap of finished app for full course_
-_TODO: demo the app_
-
-- Additional topics covered:
-- Additional components, such as click to edit
-- Login and Authentication
-- Routing
-- Security
-- Handling list scaling
-- Deployment
-
 ##Prerequisites 
 - Basic knowledge of HTML, JavaScript, and use of a command line terminal.
 - A laptop with a code editor of your choice.  We’ll be using [Sublime Text](http://www.sublimetext.com/3 ).
