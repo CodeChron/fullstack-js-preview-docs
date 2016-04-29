@@ -8,7 +8,7 @@ First, we need to enable use of data in our React components.  There are many wa
 - Add the npm package: ```npm i react-addons-pure-render-mixin --save```
 
 
-## Add Notes Collection
+## Add a Notes Collection
 ``` /imports/api/notes/notes.js ```
 
 ```js
@@ -21,8 +21,6 @@ export const Notes = new Mongo.Collection('notes')
 ## Add a React component that supports creating notes on submit
 
 ``` /imports/components/forms/single_field_submit.jsx ```
-
-_TODO: do this without binding, then add auto-bind_
 
 ```js
 import React from 'react'
@@ -73,10 +71,13 @@ SingleFieldSubmit.defaultProps = {
 }
 ```
 
-- Discuss: Stateful React components, use of the constructor, passing props, binding, propTypes, and default props.
+-  Why are we using React.Component in this case?
+-  What's the purpose of the constructor?
 
 ## Auto-binding functions
-Why is binding necessary? See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
+- Why is binding necessary?
+- What code would need to write if we did not auto-bind?
+- See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
 
 Let's make things easy and just auto-bind instead
 
@@ -85,15 +86,41 @@ Let's make things easy and just auto-bind instead
 Now, add ``` autoBind(this)``` to your constructor and remove all your ``` ...bind(this) ```
 
 
+## Create a data container for handling form input
+We need to handle the data submitted in the form.  For this, we'll create a container, that allows us to interface between React and Meteor.
 
-## Create a Notes (Data) Container
-_TODO: create a version of this with just the single field submit_
-
-
+``` /imports/components/containers/notes_container.js ```
 
 ```js
-code
+import { createContainer } from 'meteor/react-meteor-data'
+import { Notes } from '../../api/notes/notes'
+import { SingleFieldSubmit } from '../forms/single_field_submit'
+
+export default createContainer(() => {
+	
+  const handleCreateNote = (content) => {
+    Notes.insert({ 
+	  content:content,
+	    updatedAt: new Date() 
+	  })
+	}
+
+  return {
+  	handleSubmit: handleCreateNote,
+	placeholder: "New Note",
+  }
+}, SingleFieldSubmit)
 ```
+
+
+## Add the container (wrapping the form) to our app layout
+
+``` /imports/components/layouts/app_layout.jsx ```
+
+```js
+
+```
+
 
 ## Add notes collection to the server side
 If we try adding notes at this point, we'll get an error.
@@ -110,6 +137,8 @@ import { Notes} from '/imports/api/notes/notes'
 ```js 
 import '/imports/startup/server/'
 ```
+
+## Add 
 
 ## View the notes you've created
 - view in the mongo console
