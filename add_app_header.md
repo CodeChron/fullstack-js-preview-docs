@@ -1,4 +1,4 @@
-# Step 2: Add App Header
+# Step 3: Add App Header
 Normally, I would not focus on this component until later, but creating the app header component will allow us to create a relatively simple component before getting into more advanced components.
 
 ## Create a AppHeaderLayout Component
