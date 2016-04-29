@@ -24,8 +24,8 @@ http://stackoverflow.com/questions/19578796/what-is-the-save-option-for-npm-inst
 import React from 'react'
 
 export const AppLayout = () =>
-  <div id="app-container" className="container">
-    <div id="main-content">
+  <div id="app-container">
+    <div id="main-content" className="container">
       React placeholder
     </div>
   </div>
