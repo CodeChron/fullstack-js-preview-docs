@@ -128,7 +128,6 @@ export default createContainer(() => {
 }, SingleFieldSubmit)
 ```
 
-
 # Add the container (wrapping the form) to our app layout
 
 ``` /imports/components/layouts/app_layout.jsx ```
