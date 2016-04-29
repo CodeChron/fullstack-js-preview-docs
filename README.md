@@ -7,11 +7,7 @@ This app will basically be a Tracer Bullet of the app we'll build in the 2-day w
 
 ![Finished version of the app](images/finished-app.png)
 
-_TODO: demo the app_
-
-- [Finished version of the app](http://intro-to-meteor-react.meteor.com/)
 - [Github Repo](https://github.com/CodeChron/intro-to-meteor-react): https://github.com/CodeChron/fullstack-js-preview
-- _TODO: list major features_
 
 ##Prerequisites 
 - Basic knowledge of HTML, JavaScript, and use of a command line terminal.
