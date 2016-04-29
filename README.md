@@ -7,10 +7,9 @@ This app will basically be a Tracer Bullet of the app we'll build in the 2-day w
 
 _TODO: insert screen cap of finished app_
 _TODO: demo the app_
-- _Add github link_
 
 - [Finished version of the app](http://intro-to-meteor-react.meteor.com/)
-- [Github Repo](https://github.com/CodeChron/intro-to-meteor-react)
+- [Github Repo](https://github.com/CodeChron/intro-to-meteor-react): https://github.com/CodeChron/fullstack-js-preview
 - _TODO: list major features_
 
 
