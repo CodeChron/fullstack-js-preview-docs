@@ -40,7 +40,7 @@ import { IconBtn } from '../buttons/icon_btn'
  	  }
 	}
     ...
-     return <li key={item._id}>{item.content} <span className="pull-right"><IconBtn title={"Delete"} icon={"glyphicon glyphicon-remove"}  handleClick={()=> handleDelete(item)} /></span></li>
+    return <li key={item._id}>{item.content} <span className="pull-right"><IconBtn title={"Delete"} icon={"glyphicon glyphicon-remove"}  handleClick={()=> handleDelete(item)} /></span></li>
     ...
 ```
 
