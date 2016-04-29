@@ -3,19 +3,24 @@
 
 ## Add a button component for deleting a note
 
-``` /imports/components/buttons/button.jsx ```
+``` /imports/components/buttons/icon_btn.jsx ```
 
 ```js
-import React from 'react'
-
-export const Btn = (props) =>
-  <button onClick={props.handleClick}>
-    {props.label}
+export const IconBtn = (props) =>
+  <button
+    onClick={props.handleClick}
+    className="btn btn-default btn-xs"
+    title={props.title}
+     alt={props.title}
+  >
+    <span className={props.icon} aria-hidden="true"></span>
   </button>
 
-TextBtn.propTypes = {
+IconBtn.propTypes = {
 	handleClick: React.PropTypes.func.isRequired,
-	label: React.PropTypes.string.isRequired
+	icon: React.PropTypes.string.isRequired,
+	title: React.PropTypes.string
+	
 }
 ```
 Discuss: Why not "Button"?, will likely want to have many button types, eg text button, icon button.
