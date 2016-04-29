@@ -23,10 +23,6 @@ IconBtn.propTypes = {
 	
 }
 ```
-Discuss: Why not "Button"?, will likely want to have many button types, eg text button, icon button.
-
-
-``` ```
 
 ## Add the component as a delete button to the list
 
