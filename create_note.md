@@ -8,7 +8,7 @@ First, we need to enable use of data in our React components.  There are many wa
 - Add the npm package: ```npm i react-addons-pure-render-mixin --save```
 
 
-## Add a Notes Collection
+## Create a Notes Collection
 ``` /imports/api/notes/notes.js ```
 
 ```js
@@ -16,6 +16,22 @@ import { Mongo } from 'meteor/mongo'
 import { Meteor } from 'meteor/meteor'
 
 export const Notes = new Mongo.Collection('notes')
+```
+
+## Make the collection available on the server
+
+The Notes collection we created needs to be available on the server side for database operations to work.
+
+``` /imports/startup/server/index.js ```
+
+```js 
+import { Notes} from '/imports/api/notes/notes'
+```
+
+``` /server/index.js ```
+
+```js 
+import '/imports/startup/server/'
 ```
 
 ## Add a React component that supports creating notes on submit
@@ -118,24 +134,15 @@ export default createContainer(() => {
 ``` /imports/components/layouts/app_layout.jsx ```
 
 ```js
+...
+import NotesContainer from '../containers/notes_container'
 
-```
-
-
-## Add notes collection to the server side
-If we try adding notes at this point, we'll get an error.
-The Notes collection we created needs to be available on the server for database updates to work.
-
-``` /imports/startup/server/index.js ```
-
-```js 
-import { Notes} from '/imports/api/notes/notes'
-```
-
-``` /server/index.js ```
-
-```js 
-import '/imports/startup/server/'
+export const AppLayout = () =>
+  ...
+    <div id="main-content" className="container">
+      <NotesContainer />
+    </div>
+  ...
 ```
 
 ## Add 
