@@ -111,7 +111,7 @@ import { SingleFieldSubmit } from '../forms/single_field_submit'
 
 export default createContainer(() => {
 	
-  const handleCreateNote = (content) => {
+  const handleCreate = (content) => {
     Notes.insert({ 
 	  content:content,
 	    updatedAt: new Date() 
@@ -119,7 +119,7 @@ export default createContainer(() => {
 	}
 
   return {
-  	handleSubmit: handleCreateNote,
+  	handleSubmit: handleCreate,
 	placeholder: "New Note",
   }
 }, SingleFieldSubmit)
