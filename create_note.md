@@ -34,7 +34,7 @@ import { Notes} from '/imports/api/notes/notes'
 import '/imports/startup/server/'
 ```
 
-## Add a React component that supports creating notes on submit
+## Add a React component that submits input when using the return key
 
 ``` /imports/components/forms/single_field_submit.jsx ```
 
