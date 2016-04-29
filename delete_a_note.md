@@ -30,7 +30,7 @@ IconBtn.propTypes = {
 
 ```js
 ...
-import { Btn } from '../buttons/btn'
+import { IconBtn } from '../buttons/icon_btn'
 ...
 	const handleDelete = (item) => {
 		const confirmDelete = confirm("Really delete this?")
