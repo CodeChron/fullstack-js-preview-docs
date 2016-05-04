@@ -9,7 +9,6 @@ These are some of the additional topics we'll cover in the two-day workshop.
 - Auto-Saving Changes
 - Handling list scaling
 - Creating a custom UI component
-- Creating your own CSS Framework
 - Making your Meteor app more secure
 - Deploying a Meteor App
 
