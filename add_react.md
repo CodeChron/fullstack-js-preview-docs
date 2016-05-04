@@ -1,4 +1,4 @@
-# Add React
+# Step 2: Add React
 
 Branch: 02-add-react
 
