@@ -1,5 +1,5 @@
 
-# App Setup
+# Step 1: App Setup
 _keep these instructions brief and reference codechron blog posts_
 
 _Branch name: 01-setup_ - see Introduction for info on how to get caught using branches.
