@@ -1,4 +1,4 @@
-# Delete a Note
+# Step 6: Delete a Note
 
 
 ## Add a button component for deleting a note
