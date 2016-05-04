@@ -1,7 +1,7 @@
 # Summary
 
-* [Introduction](README.md)
 * [TODO](todo.md)
+* [Introduction](README.md)
 * [App Setup](app_setup.md)
 * [Add React](add_react.md)
 * [App Component Hierarchy](app_component_hierarchy.md)
