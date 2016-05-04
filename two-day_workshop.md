@@ -13,3 +13,8 @@ These are some of the additional topics we'll cover in the two-day workshop.
 - Making your Meteor app more secure
 - Deploying a Meteor App
 
+
+Interested in attending?
+
+**[Sign up here for the 2-day workshop](https://www.eventbrite.com/e/full-stack-web-development-workshop-meteorjs-reactjs-tickets-24910341502).**
+
