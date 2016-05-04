@@ -18,7 +18,7 @@ This app will basically be a Tracer Bullet of the app we'll build in the 2-day w
 Each step in the tutorial has a corresponding branch in the [github repo](https://github.com/CodeChron/intro-to-meteor-react).  I highly recommend that you create the app on your own, but if you should get stuck, you can always check out the branch from the previous step to get caught up.
 
 ### Getting caught up using git branches.
-1. Clone the tutorial: ```git clone https://github.com/CodeChron/intro-to-meteor-react.git```
+1. Clone the tutorial: ```git clone git@github.com:CodeChron/fullstack-js-preview.git```
 2. Cd into the tutorial project: ```cd dir name```
 2. Pull down all branches: ```git fetch --all```
 3. View available branches: ```git branch -a```
