@@ -1,4 +1,4 @@
-# Create Notes (Add Data Support)
+# Step 4: Create Notes (Add Data Support)
 First, we need to enable use of data in our React components.  There are many ways to do this.  I prefer the official Meteor method.
 
 ## Add support for handling Meteor Data in React
