@@ -133,6 +133,7 @@ export const AppLayout = () =>
     </div>
   ...
 ```
+- Why is there no need for brackets when importing ```NotesContainer```?
 
 ## Try creating some notes
 If you enter some text and hit return, it will appear as if nothing is happening. This is only because we haven't added support yet for viewing notes.
