@@ -29,7 +29,8 @@ List.propTypes = {
 ```
 
  - What is ``` {...props} ```?
- - Why ``` ...isRequired ```?
+ - What's going on with the use of ```.map``` and ```key```?
+ - What's the purpose of ``` ...isRequired ```?
 
 ### Update NotesContainer
 
