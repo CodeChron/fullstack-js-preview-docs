@@ -1,7 +1,7 @@
 _Get caught up to this step: Check out branch 03-app-header - see Introduction for info on how to get caught up using branches._
 <hr>
 # Step 4: Create Notes (Add Data)
-First, we need to enable use of data in our React components.  There are many ways to do this.  I prefer the official Meteor method.
+First, we need to enable use of data in our React components.  There are [many ways](https://www.discovermeteor.com/blog/data-loading-react/) to do this.  I prefer the [official](http://guide.meteor.com/react.html) Meteor method.
 
 ## Add support for handling Meteor Data in React
 
@@ -9,7 +9,7 @@ First, we need to enable use of data in our React components.  There are many wa
 - Add the npm package: ```npm i react-addons-pure-render-mixin --save```
 
 
-## Create a Notes Collection
+## Create a Mongo dB Notes Collection
 ``` /imports/api/notes/notes.js ```
 
 ```js
