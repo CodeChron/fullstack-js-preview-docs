@@ -28,7 +28,7 @@ Create the Meteor app and cd into it:
 - See [this blog post](http://coderchronicles.org/2016/04/08/getting-started-with-meteor-1-3-react-and-flowrouter/#Start_and_View_Meteor_in_Your_Browser) for a recommended local setup.
 
 
-## Move app files into "imports"
+## Move app files into the "imports" directory
 After the release of Meteor 1.3, it's generally considered good practice to place the majority of your files inside the imports directory and then load them as needed. [Learn more](http://guide.meteor.com/structure.html#javascript-structure) in the Meteor Guide.
 
 - Create an imports directory: ``` mkdir imports ```
