@@ -142,9 +142,9 @@ If you enter some text and hit return, it will appear as if nothing is happening
 
 ## View your notes in a mongo console
 
-In your terminal, open a new window):
+In your terminal, open a new window or tab:
 
-``` meteor mongo ``` (make sure meteor is still running)
+``` meteor mongo ```
 
 ``` 
 meteor:PRIMARY> db.notes.find().pretty()
@@ -164,9 +164,7 @@ meteor:PRIMARY> db.notes.find().pretty()
 You can also view them directly in the client using the [mongol package](https://atmospherejs.com/msavin/mongol).
 
 ## Auto-binding functions
-- Why is binding necessary?
-- What code would need to write if we did not auto-bind?
-- See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
+- Why is binding necessary? See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
 
 Let's make things easy and just auto-bind instead
 
