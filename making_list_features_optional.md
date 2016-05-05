@@ -73,3 +73,5 @@ List.defaultProps = {
 	  deleteItem: true
   }
 ```
+
+Another advantage, in addition to component versatility, is feature scalability.  We can now easily add numerous optional features to this list.
