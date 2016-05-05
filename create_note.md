@@ -171,7 +171,7 @@ Let's make things easy and just auto-bind instead.
 
 - Install the autobind package: ``` npm i react-autobind --save ```
 
-- Update the one component where we've used binding so far:
+- Update the one component where we've used binding so far. Add ``` autoBind(this)``` to your constructor and remove all your bind calls.
 
 ``` /imports/components/forms/single_field_submit.jsx ```
 
@@ -199,5 +199,5 @@ export class SingleFieldSubmit extends React.Component {
  ...
 ```
 
-Now, add ``` autoBind(this)``` to your constructor and remove all your ``` ...bind(this) ```
+Now, 
 
