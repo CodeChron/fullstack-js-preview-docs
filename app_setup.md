@@ -1,38 +1,45 @@
 
 # Step 1: App Setup
-_keep these instructions brief and reference codechron blog posts_
 
 _Branch name: 01-setup_ - see Introduction for info on how to get caught using branches.
 
-## Project and App setup
-Create your project directory
+## Project setup
+Create your project directory and cd into it:
 
 ```mkdir my_notes_app  && cd my_notes_app```
 
+Add a [ReadMe](https://en.wikipedia.org/wiki/README) file to your project: 
 ```echo "# My Notes App" >> README.md```
 
-(Optional, initialize a git repo.)
-
-Reference: http://coderchronicles.org/2016/04/08/getting-started-with-meteor-1-3-react-and-flowrouter/#Create_a_project_directory_set_up_version_control_and_install_Meteor
+(Optional, [initialize a git repo](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/).)
 
 
-## Create the Meteor app
+## Create the app
+Create the Meteor app and cd into it:
 
 ```meteor create app``
 
 ``` cd app```
 
-Start up your Meteor app and view both server and console.
-See CodeChron article.
+## Start the app and get set up for development
+
+- Type ``` meteor ``` to run the app locally.
+- Go to http://localhost:3000 to view your app.
+- See [this blog post](http://coderchronicles.org/2016/04/08/getting-started-with-meteor-1-3-react-and-flowrouter/#Start_and_View_Meteor_in_Your_Browser) for a recommended local setup.
+
 
 ## Move app files into "imports"
-- create imports dir
+After the release of Meteor 1.3, it's generally considered good practice to place the majority of your files inside the imports directory and then load them as needed. [Learn more](http://guide.meteor.com/structure.html#javascript-structure) in the Meteor Guide.
+
+- Create an imports directory: ``` mkdir imports ```
+  
+
 - move files into ```/imports/startup``` 
 - import files to the client and server.
 
 You should now see the same welcome info you see by default.  If so, you know your imports are set up properly.
 
-## Add mobile meta tags
+## Add mobile meta tags (optional)
 
 ```html
 <head>
