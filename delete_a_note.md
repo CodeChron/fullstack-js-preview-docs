@@ -76,18 +76,15 @@ DeleteBtn.defaultProps = {
 
 ```js
 ...
-import { IconBtn } from '../buttons/icon_btn'
-...
-	const handleDelete = (item) => {
-		const confirmDelete = confirm("Really delete this?")
+import { DeleteBtn } from '../buttons/delete_btn'
 
- 	  if (confirmDelete) {
- 	  	props.handleDelete(item)
- 	  }
-	}
-    ...
-    return <li key={item._id}>{item.content} <span className="pull-right"><IconBtn title={"Delete"} icon={"glyphicon glyphicon-remove"}  handleClick={()=> handleDelete(item)} /></span></li>
-    ...
+export const List = (props) =>{
+   ...
+	    	props.collection.map((item) => {
+            return <li key={item._id} className="list-group-item">{item.content}
+	 	      <span className="pull-right"><DeleteBtn itemToDelete={item} {...props} /></span>
+	 	      </li>
+           ...
 ```
 
 
