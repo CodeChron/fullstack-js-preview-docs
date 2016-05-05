@@ -115,6 +115,9 @@ export default createContainer(() => {
 }, SingleFieldSubmit)
 ```
 
+- What's going on with ```export default```?
+- Where does the stuff we return go to?
+
 # Add the container (wrapping the form) to our app layout
 
 ``` /imports/components/layouts/app_layout.jsx ```
