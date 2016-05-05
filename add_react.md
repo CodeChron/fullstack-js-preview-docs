@@ -1,4 +1,4 @@
-_Get caught up to this step: Check out branch 01-setup - see Introduction for info on how to get caught using branches._
+_Get caught up to this step: Check out branch 01-setup - see Introduction for info on how to get caught up using branches._
 <hr>
 
 # Step 2: Add React
