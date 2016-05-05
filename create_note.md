@@ -41,7 +41,6 @@ import '/imports/startup/server/'
 
 ```js
 import React from 'react'
-import autoBind from 'react-autobind'
 
 export class SingleFieldSubmit extends React.Component {
 
@@ -50,7 +49,6 @@ export class SingleFieldSubmit extends React.Component {
     this.state = {
       inputValue: this.props.inputValue
     }
-    autoBind(this)
   }
 
   updateInputValue(e){
@@ -64,13 +62,13 @@ export class SingleFieldSubmit extends React.Component {
   }
 
   render() {
-      return <form  className="form-inline" onSubmit={this.handleSubmit}>
+      return <form  className="form-inline" onSubmit={this.handleSubmit.bind(this)}>
         <input
           type="text"
           className="form-control"
           placeholder={this.props.placeholder}
           value={this.state.inputValue}
-          onChange={this.updateInputValue}
+          onChange={this.updateInputValue.bind(this)}
         />
       </form>
   }
