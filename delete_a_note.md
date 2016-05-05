@@ -3,7 +3,8 @@ _Get caught up to this step: Check out branch 05-list-notes - see Introduction f
 # Step 6: Delete a Note
 
 
-## Add a button component for deleting a note
+## Add an Icon Button component
+We're going to need a button that accepts a click event for this. Let's create a reusable component.
 
 ``` /imports/components/buttons/icon_btn.jsx ```
 
