@@ -66,7 +66,6 @@ List.defaultProps = {
 
 ``` /imports/containers/note_container.jsx ```
 
-
 ```js
   return {
      ...
@@ -74,5 +73,3 @@ List.defaultProps = {
 	  deleteItem: true
   }
 ```
-
-Discuss: we can now easily scale this set of features.
