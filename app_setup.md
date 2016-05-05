@@ -53,6 +53,10 @@ import '/imports/startup/client'
 You should now see the same welcome info you see by default.  If so, you know your imports are set up properly.
 
 ## Add mobile meta tags (optional)
+This helps ensure proper rendering on mobile devices.
+In Meteor, there is no need to include the html tags.  Meteor will do that for you.
+
+``` /client/head.html ```
 
 ```html
 <head>
