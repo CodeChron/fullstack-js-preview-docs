@@ -4,8 +4,6 @@ _Get caught up to this step: Check out branch 06-delete-note - see Introduction 
 
 Let's make the add item form and the delete button optional in the list.  This will make the List component more versatile and easier to re-use.
 
-Discuss: this is getting advanced...don't freak out :-}
-
 ## Move optional features into a collection
 
 ``` /imports/components/lists/list.jsx ```
