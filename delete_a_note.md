@@ -87,9 +87,6 @@ export const List = (props) =>{
            ...
 ```
 
-
-- Could we refactor this to have a DeleteBtn? (Or, should the List component really be responsible for handling deletion?)
-
 ## Handle deletion of a note
 
 
@@ -107,9 +104,10 @@ export default createContainer(() => {
 
   return {
     ...
-	  handleDelete: handleDelete
+	  handleDelete
   }
 
 }, List)
-
 ```
+
+- How are we able to write just ```handleDelete```?
