@@ -37,7 +37,7 @@ Let's make the add item form and the delete button optional in the list.  This w
 	    {displayOptionalFeature(props.addItem, optionalFeatures.addItem)}
 	    { 
 	    	props.collection.map((item) => {
-	 	      return <li key={item._id}>{item.content} {displayFeature(props.deleteItem, listFeatures.deleteItem, item)}
+	 	      return <li key={item._id}>{item.content} {displayOptionalFeature(props.deleteItem, optionalFeatures.deleteItem, item)}
 	 	      </li>
 
 	      })
