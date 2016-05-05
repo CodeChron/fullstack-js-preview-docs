@@ -33,7 +33,7 @@ List.propTypes = {
  - What's going on with the use of ```.map``` and ```key```?
  - What's the purpose of ``` ...isRequired ```?
 
-### Update NotesContainer
+### Update NotesContainer to use the List
 
 We now need to update our container to use the list rather than the form.
 
