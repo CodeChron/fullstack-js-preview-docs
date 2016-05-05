@@ -199,5 +199,3 @@ export class SingleFieldSubmit extends React.Component {
  ...
 ```
 
-Now, 
-
