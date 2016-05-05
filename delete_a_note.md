@@ -68,7 +68,7 @@ DeleteBtn.defaultProps = {
 }
 ```
 
-- Why the need for ```{() => callFunction()}```? See http://stackoverflow.com/questions/33846682/react-onclick-fuction-fires-on-render (TL;DR "Because you are calling that function instead of passing the function to onClick")
+- Why the need for ```{() => callFunction()}```? See http://stackoverflow.com/questions/33846682/react-onclick-fuction-fires-on-render (TL;DR "Because you want to pass a call to the function rather than the function directly.")
  
 ## Add DeleteBtn to the list
 
