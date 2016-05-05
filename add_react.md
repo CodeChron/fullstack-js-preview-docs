@@ -34,10 +34,11 @@ export const AppLayout = () =>
 - What is the '=>' thing?
 - Isn't this just a plain JS function? Why are we not using React.createClass or React.Component?
 - Why are we using 'className' rather than class?
-
-
  
-## Add a render target
+## Replace Blaze with a React render target
+
+``` /imports/startup/client/main.html ```
+
 ```html
 <body>
   <div id="app"></div>
