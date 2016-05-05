@@ -31,7 +31,7 @@ AppHeaderLayout.defaultProps = {
 
 - What are props, propTypes, and defaultProps?
 
-## Add App Header to the main App Layout
+## Add  the App Header to the App Layout
 
 ``` /imports/components/layouts/app_layout.jsx ```
 
@@ -48,4 +48,4 @@ export const AppLayout = () =>
 
 You should now see an unstyled version of the app header.
 
-Try adding your own ``` pageTitle ``, eg  to `` <AppHeaderLayout pageTitle="My Custom Title" /> ``` and you'll see the page title update.
+Try adding your own ``` pageTitle `` eg `` <AppHeaderLayout pageTitle="My Custom Title" /> ``` and you'll see the page title update.
