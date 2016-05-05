@@ -48,7 +48,7 @@ import { IconBtn } from '../buttons/icon_btn'
 ```
 
 - Why the need for ```{() => callFunction()}```? See http://stackoverflow.com/questions/33846682/react-onclick-fuction-fires-on-render (TL;DR "Because you are calling that function instead of passing function to onClick")
-- Could we refactor this to have a DeleteBtn?
+- Could we refactor this to have a DeleteBtn? (Or, should the List component really be responsible for handling deletion?)
 
 ## Handle deletion of a note
 
