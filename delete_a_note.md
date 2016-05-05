@@ -32,6 +32,8 @@ IconBtn.propTypes = {
  ## Add a DeleteBtn Component
  Now, we'll use the more generic IconBtn to create a delete-specific button component
  
+ ``` /imports/components/buttons/delete_btn.jsx ```
+ 
 ```js
 import React from 'react'
 import { IconBtn } from './icon_btn'
@@ -64,6 +66,8 @@ DeleteBtn.defaultProps = {
   confirmMsg: "Really delete this?"
 }
 ```
+
+- Why the need for ```{() => callFunction()}```? See http://stackoverflow.com/questions/33846682/react-onclick-fuction-fires-on-render (TL;DR "Because you are calling that function instead of passing the function to onClick")
  
 ## Add the component as a delete button to the list
 
@@ -85,7 +89,7 @@ import { IconBtn } from '../buttons/icon_btn'
     ...
 ```
 
-- Why the need for ```{() => callFunction()}```? See http://stackoverflow.com/questions/33846682/react-onclick-fuction-fires-on-render (TL;DR "Because you are calling that function instead of passing function to onClick")
+
 - Could we refactor this to have a DeleteBtn? (Or, should the List component really be responsible for handling deletion?)
 
 ## Handle deletion of a note
