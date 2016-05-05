@@ -1,3 +1,5 @@
+_Get caught up to this step: Check out branch 05-list-notes - see Introduction for info on how to get caught up using branches._
+<hr>
 # Step 6: Delete a Note
 
 
