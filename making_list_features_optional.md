@@ -10,9 +10,9 @@ Let's make the add item form and the delete button optional in the list.  This w
 
 ```js
 ...
- const listFeatures = {
-  	addItem: () => <li><SingleFieldSubmit {...props} /></li>,
-  	deleteItem: (args) => <Btn label={"x"}  handleClick={()=> handleDelete(args)} />
+	const optionalFeatures = {
+  	addItem: () => <li className="list-group-item"><SingleFieldSubmit {...props} /></li>,
+  	deleteItem: (args) => <DeleteBtn itemToDelete={args} {...props}/>
 	}
 ...
 }
