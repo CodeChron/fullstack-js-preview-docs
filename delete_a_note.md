@@ -111,3 +111,8 @@ export default createContainer(() => {
 ```
 
 - How are we able to write just ```handleDelete```?
+
+You should now have a delete feature included with each list item:
+
+<img width="829" alt="delete-feature" src="https://cloud.githubusercontent.com/assets/819213/15051636/a3a2997c-12c7-11e6-8c11-4f70f163d8b8.png">
+
