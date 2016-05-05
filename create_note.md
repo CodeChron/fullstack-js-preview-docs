@@ -88,19 +88,8 @@ SingleFieldSubmit.defaultProps = {
 -  What's the purpose of the constructor?
 -  Why are we naming our component in this way?
 
-## Auto-binding functions
-- Why is binding necessary?
-- What code would need to write if we did not auto-bind?
-- See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
 
-Let's make things easy and just auto-bind instead
-
-``` npm i react-autobind --save ```
-
-Now, add ``` autoBind(this)``` to your constructor and remove all your ``` ...bind(this) ```
-
-
-# Create a data container for handling form input
+## Create a data container for handling form input
 We need to handle the data submitted in the form.  For this, we'll create a container, that allows us to interface between React and Meteor.
 
 ``` /imports/components/containers/notes_container.js ```
@@ -142,7 +131,7 @@ export const AppLayout = () =>
   ...
 ```
 
-# Try creating some notes
+## Try creating some notes
 If you enter some text and hit return, it will appear as if nothing is happening. This is only because we haven't added support yet for viewing notes.
 
 ## View your notes in a mongo console
@@ -167,3 +156,15 @@ meteor:PRIMARY> db.notes.find().pretty()
 ```
 
 You can also view them directly in the client using the [mongol package](https://atmospherejs.com/msavin/mongol).
+
+## Auto-binding functions
+- Why is binding necessary?
+- What code would need to write if we did not auto-bind?
+- See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
+
+Let's make things easy and just auto-bind instead
+
+``` npm i react-autobind --save ```
+
+Now, add ``` autoBind(this)``` to your constructor and remove all your ``` ...bind(this) ```
+
