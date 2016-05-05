@@ -4,7 +4,7 @@ _Get caught up to this step: Check out branch 05-list-notes - see Introduction f
 
 
 ## Add an Icon Button component
-We're going to need a button that accepts a click event for this. Let's create a reusable component.
+We're going to need a button with a delete icon that accepts a click event. Let's create a reusable component.
 
 ``` /imports/components/buttons/icon_btn.jsx ```
 
