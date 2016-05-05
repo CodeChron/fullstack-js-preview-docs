@@ -48,4 +48,8 @@ export const AppLayout = () =>
 
 You should now see an unstyled version of the app header.
 
-Try adding your own ``` pageTitle `` eg `` <AppHeaderLayout pageTitle="My Custom Title" /> ``` and you'll see the page title update.
+Try adding your own ``` pageTitle ```, eg
+
+``` <AppHeaderLayout pageTitle="My Custom Title" /> ``` 
+
+and you'll see the page title update.
