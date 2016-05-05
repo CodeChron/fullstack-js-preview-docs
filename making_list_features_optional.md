@@ -12,7 +12,7 @@ Let's make the add item form and the delete button optional in the list.  This w
 ...
 	const optionalFeatures = {
   	addItem: () => <li className="list-group-item"><SingleFieldSubmit {...props} /></li>,
-  	deleteItem: (args) => <DeleteBtn itemToDelete={args} {...props}/>
+  	deleteItem: (args) => <span className="pull-right"><DeleteBtn itemToDelete={args} {...props}/></span>
 	}
 ...
 }
@@ -32,8 +32,9 @@ Let's make the add item form and the delete button optional in the list.  This w
 ## Use the function to dynamically display a feature
 
 ```js
+...
 	return <ul>
-	    {displayFeature(props.addItem, listFeatures.addItem)}
+	    {displayOptionalFeature(props.addItem, optionalFeatures.addItem)}
 	    { 
 	    	props.collection.map((item) => {
 	 	      return <li key={item._id}>{item.content} {displayFeature(props.deleteItem, listFeatures.deleteItem, item)}
