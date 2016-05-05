@@ -28,6 +28,43 @@ IconBtn.propTypes = {
 }
 ```
 
+
+ ## Add a DeleteBtn Component
+ Now, we'll use the more generic IconBtn to create a delete-specific button component
+ 
+```js
+import React from 'react'
+import { IconBtn } from './icon_btn'
+
+export const DeleteBtn = (props) => {
+  const handleDelete = (item) => {
+    const confirmDelete = confirm({props.confirmMsg})
+
+    if (confirmDelete) {
+      props.handleDelete(item)
+    }
+  }
+
+  return <IconBtn handleClick={()=> handleDelete(item)}
+            title={props.title}
+            alt={props.title}
+            icon={props.icon}
+          />
+}
+
+
+DeleteBtn.propTypes = {
+	handleDelete: React.PropTypes.func.isRequired,
+  confirmMsg: React.PropTypes.string,
+}
+
+DeleteBtn.defaultProps = {
+  icon: "glyphicon glyphicon-remove",
+  title: "Delete...",
+  confirmMsg: "Really delete this?"
+}
+```
+ 
 ## Add the component as a delete button to the list
 
 ``` /imports/components/lists/list.jsx ```
