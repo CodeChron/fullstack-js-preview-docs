@@ -3,7 +3,7 @@ _Get caught up to this step: Check out branch 04-create-notes - see Introduction
 # Step 5: List Notes
 
 ## Add a List Component
-Let's add a list component and have our new item form appear at the top.
+Let's add a list component, that displays new items as we add them, with our new item form on top.
 
 ``` /imports/components/lists/list.jsx ```
 
