@@ -88,6 +88,7 @@ SingleFieldSubmit.defaultProps = {
 
 -  Why are we using React.Component in this case?
 -  What's the purpose of the constructor?
+-  Why are we naming our component in this way?
 
 ## Auto-binding functions
 - Why is binding necessary?
