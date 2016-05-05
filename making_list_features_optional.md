@@ -31,10 +31,6 @@ const displayFeature = (shouldDisplay, feature, args ) => {
 }
 ```
 
-
-Discuss optional arguments
-
-
 ## Use the function to dynamically display a feature
 
 ```js
