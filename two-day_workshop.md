@@ -2,16 +2,16 @@
 
 These are some of the additional topics we'll cover in the two-day workshop.
 
-- Adding multiple app pages with routing
+- Database schemas
+- Secure db Methods
+- Routing
 - Publications and Subcriptions
 - Login and Authentication
-- Creating a click-to-edit component
+- Click-to-edit components
 - Auto-Saving Changes
-- Handling list scaling
-- Creating a custom UI component
-- Making your Meteor app more secure
-- Deploying a Meteor App
-
+- List scaling
+- Security
+- Deployment
 
 Interested in attending?
 
