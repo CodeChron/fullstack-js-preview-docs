@@ -1,7 +1,7 @@
 _Get caught up to this step: Check out branch 02-add-react - see Introduction for info on how to get caught up using branches._
 <hr>
 # Step 3: Add App Header
-Normally, I would not focus on this component until later, but creating the app header component will allow us to create a relatively simple component before getting into more advanced components.
+Creating the app header component will allow us to create a relatively simple component before getting into more advanced components.
 
 ## Create a AppHeaderLayout Component
 This component should only be responsible for layout and nothing else.
