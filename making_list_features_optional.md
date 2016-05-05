@@ -1,4 +1,4 @@
-_Get caught up to this step: Check out branch 05-list-notes - see Introduction for info on how to get caught up using branches._
+_Get caught up to this step: Check out branch 06-delete-note - see Introduction for info on how to get caught up using branches._
 <hr>
 # Step 7: Making List Features Optional
 
