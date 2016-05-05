@@ -118,7 +118,7 @@ export default createContainer(() => {
 - What's going on with ```export default```?
 - Where does the stuff we return go to?
 
-# Add the container (wrapping the form) to our app layout
+# Add the Notes container to our app
 
 ``` /imports/components/layouts/app_layout.jsx ```
 
