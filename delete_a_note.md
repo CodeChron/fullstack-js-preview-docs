@@ -9,6 +9,8 @@ We're going to need a button with a delete icon that accepts a click event. Let'
 ``` /imports/components/buttons/icon_btn.jsx ```
 
 ```js
+import React from 'react'
+
 export const IconBtn = (props) =>
   <button
     onClick={props.handleClick}
@@ -23,7 +25,6 @@ IconBtn.propTypes = {
 	handleClick: React.PropTypes.func.isRequired,
 	icon: React.PropTypes.string.isRequired,
 	title: React.PropTypes.string
-	
 }
 ```
 
