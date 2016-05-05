@@ -63,14 +63,6 @@ Meteor.startup(() =>
 )
 ```
 
-## Import (and render) on Startup
-
-```js
-import './main.html'
-import './main.js'
-
-```
-
 You should now see this in your browser:
 
 ![Dflt view with React added](images/react-added-dflt.png)
