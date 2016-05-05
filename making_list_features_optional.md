@@ -18,13 +18,11 @@ Let's make the add item form and the delete button optional in the list.  This w
 }
 ```
 
-Discuss use of objects and key/value pairs.
-
 ## Create a function for accessing a feature and passing in arguments
 
 ```js
 ...
-const displayFeature = (shouldDisplay, feature, args ) => {
+	const displayOptionalFeature = (shouldDisplay, feature, args ) => {
 	  return shouldDisplay? feature(args) : null
 	}
 ...
