@@ -3,8 +3,6 @@ _Get caught up to this step: Check out branch 01-setup - see Introduction for in
 
 # Step 2: Add React
 
-Branch: 02-add-react
-
 - rm all blaze templates
 - install react via npm - be sure you are in the app directory
 
