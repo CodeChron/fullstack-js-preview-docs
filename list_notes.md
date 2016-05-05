@@ -1,3 +1,5 @@
+_Get caught up to this step: Check out branch 04-create-notes - see Introduction for info on how to get caught up using branches._
+<hr>
 # Step 5: List Notes
 
 ## Add a List Component
