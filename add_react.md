@@ -37,6 +37,8 @@ export const AppLayout = () =>
  
 ## Replace Blaze with a React render target
 
+Add a location where we want to render our React components:
+
 ``` /imports/startup/client/main.html ```
 
 ```html
@@ -45,11 +47,16 @@ export const AppLayout = () =>
 </body>
 ```
 
-## Tell Meteor to render the app on startup
+Tell Meteor to render our top-level ```AppLayout``` component at this location on startup:
+
+``` /imports/startup/client/main.js ```
+
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppLayout } from '/imports/components/layouts/app_layout'
+
+import './main.html'
 
 Meteor.startup(() =>
 	ReactDOM.render(<AppLayout />, document.getElementById("app"))
