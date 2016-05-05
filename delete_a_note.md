@@ -70,7 +70,7 @@ DeleteBtn.defaultProps = {
 
 - Why the need for ```{() => callFunction()}```? See http://stackoverflow.com/questions/33846682/react-onclick-fuction-fires-on-render (TL;DR "Because you are calling that function instead of passing the function to onClick")
  
-## Add the component as a delete button to the list
+## Add DeleteBtn to the list
 
 ``` /imports/components/lists/list.jsx ```
 
