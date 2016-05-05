@@ -120,6 +120,8 @@ export default createContainer(() => {
 
 # Add the Notes container to our app
 
+Note: we are replacing the "React placeholder" text with this component.
+
 ``` /imports/components/layouts/app_layout.jsx ```
 
 ```js
