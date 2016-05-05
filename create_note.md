@@ -167,9 +167,37 @@ You can also view them directly in the client using the [mongol package](https:/
 
 Why is binding necessary? See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
 
-Let's make things easy and just auto-bind instead
+Let's make things easy and just auto-bind instead.
 
-``` npm i react-autobind --save ```
+- Install the autobind package: ``` npm i react-autobind --save ```
+
+- Update the one component where we've used binding so far:
+
+``` /imports/components/forms/single_field_submit.jsx ```
+
+```js
+...
+import autoBind from 'react-autobind'
+
+export class SingleFieldSubmit extends React.Component {
+
+  constructor(props){
+   ...
+    autoBind(this)
+  }
+
+ ...
+
+  render() {
+      return <form  className="form-inline" onSubmit={this.handleSubmit.bind(this)}>
+         ...
+          onChange={this.updateInputValue}
+        />
+      </form>
+  }
+}
+ ...
+```
 
 Now, add ``` autoBind(this)``` to your constructor and remove all your ``` ...bind(this) ```
 
