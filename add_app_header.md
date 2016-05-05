@@ -29,7 +29,7 @@ AppHeaderLayout.defaultProps = {
 }
 ```
 
-- Discuss: using props, propTypes, and defaultProps
+- What are props, propTypes, and defaultProps?
 
 ## Add App Header to the main App Layout
 
