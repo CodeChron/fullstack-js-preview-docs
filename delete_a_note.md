@@ -89,6 +89,7 @@ export const List = (props) =>{
 
 ## Handle deletion of a note
 
+The actual db operation is handled via our notes container.
 
 ``` /imports/containers/notes_container.jsx ```
 
