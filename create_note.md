@@ -1,4 +1,4 @@
-_Get caught up to this step: Check out branch 02-add-react - see Introduction for info on how to get caught up using branches._
+_Get caught up to this step: Check out branch 03-app-header - see Introduction for info on how to get caught up using branches._
 <hr>
 # Step 4: Create Notes (Add Data)
 First, we need to enable use of data in our React components.  There are many ways to do this.  I prefer the official Meteor method.
