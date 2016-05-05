@@ -164,7 +164,8 @@ meteor:PRIMARY> db.notes.find().pretty()
 You can also view them directly in the client using the [mongol package](https://atmospherejs.com/msavin/mongol).
 
 ## Auto-binding functions
-- Why is binding necessary? See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
+
+Why is binding necessary? See [Why and how to bind methods in your React component classes](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/).
 
 Let's make things easy and just auto-bind instead
 
